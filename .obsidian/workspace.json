@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0569ecc0a8b667d9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ddf5275b0fc08349",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
-                "page": 12,
-                "left": -31,
-                "top": 594,
-                "zoom": 0.4907857383438387
-              },
-              "icon": "lucide-file-text",
-              "title": "09 - Set-5 (Boats & Streams)"
-            }
-          }
-        ]
-      },
-      {
         "id": "47d4a412c756ea45",
         "type": "tabs",
         "children": [
@@ -100,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "71288c71c46d1460",
@@ -209,6 +186,7 @@
   },
   "active": "c16afbf5213dda68",
   "lastOpenFiles": [
+    "Time, Distance and Speed/images/image 8.png",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Time, Distance and Speed/13 - Boats and Streams.md",
     "Time, Distance and Speed/images/image 7.jpg",

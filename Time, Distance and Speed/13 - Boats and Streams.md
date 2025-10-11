@@ -82,8 +82,10 @@ Upstream Speed.
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=12|Problem 10:]]**
 - When you have two fractions set equal to each other (a proportion), use cross multiplication to eliminate the denominators and find the unknown values of the variables.
-- When a single equation has two unknowns, you cannot fully solve it. After partially solving, the result will be in Ratios. So, attach a variable like "x" along with the Ratios.
 - When you have two fractions set equal to each other (a proportion), you can simplify the equation by canceling common factors shared by the numerators, the denominators, or a numerator and denominator on the same side of the equation (LHS or RHS).
+- When a single equation has two unknowns, you cannot fully solve it. After partially solving, the result will be in Ratios. So, attach a variable like "x" along with the Ratios.
+
+![[image 8.png]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=13|Problem 11:]]**
 If the equations do not have an equally splitable side, assign variables such as d and u to represent 1 / (b + s) and 1 / (b – s), substitute the variables d and u into both the equations, solve these equations to find the values of d and u, and then find the values of b and s by setting 1 / (b + s) = d and 1 / (b − s) = u.
