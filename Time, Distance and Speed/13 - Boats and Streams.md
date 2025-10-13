@@ -88,11 +88,36 @@ Upstream Speed.
 ![[image 8.png]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=13|Problem 11:]]**
-If the equations do not have an equally splitable side, assign variables such as d and u to represent 1 / (b + s) and 1 / (b – s), substitute the variables d and u into both the equations, solve these equations to find the values of d and u, and then find the values of b and s by setting 1 / (b + s) = d and 1 / (b − s) = u.
+
+💡 **Reciprocal Substitution Method**:
+- If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
+- Let u = 1/b-s and d = 1/b+s
+- Rewrite the original Time equations in terms of u and d to eliminate complex fractions.
+- Solve the new equations to find the value of u and d.
+- Then, take reciprocals of u and d to find the actual speeds 1/u = b-s and 1/d = b+s.
+- Finally, solve the two equations b+s = ... and b-s = ... to find the values of b and s.
 
 🎯 [[09 - Set-5 (Boats & Streams).pdf#page=14|Problem 12:]]
 - The Time Ratio can be inversed to the Speed Ratio only when the Distance is constant.
 - Upstream Distance is not equal to Downstream Distance in this problem, so the Time Ratio cannot be inversed to the Speed Ratio for this problem.
+
+**🎯[[09 - Set-5 (Boats & Streams).pdf#page=15|Problem 13:]]**
+
+💡 **Reciprocal Substitution Method**:
+- If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
+- Let u = 1/b-s and d = 1/b+s
+- Rewrite the original Time equations in terms of u and d to eliminate complex fractions.
+- Solve the new equations to find the value of u and d.
+- Then, take reciprocals of u and d to find the actual speeds 1/u = b-s and 1/d = b+s.
+- Finally, solve the two equations b+s = ... and b-s = ... to find the values of b and s.
+
+**🎯[[09 - Set-5 (Boats & Streams).pdf#page=16|Problem 14:]]**
+- If the question has the keyword "Equal/Same/Identical", start the sum by equating the corresponding quantities. 
+- When you have two fractions set equal to each other (a proportion), use cross multiplication to eliminate the denominators and find the unknown values of the variables.
+- When you have two fractions set equal to each other (a proportion), you can simplify the equation by canceling common factors shared by the numerators, the denominators, or a numerator and denominator on the same side of the equation (LHS or RHS).
+- When a single equation has two unknowns, you cannot fully solve it. After partially solving, the result will be in Ratios. So, attach a variable like "x" along with the Ratios.
+
+![[image 9.jpg|200]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=17|Problem 15:]]**
 Distance is being directly asked here, so we can't assume the Distance value for the "Same Distance" keyword.
