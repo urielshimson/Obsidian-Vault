@@ -25,19 +25,25 @@
 🧩 Problems
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=3|Problem 1:]]**
+- Speed along the current → Downstream Speed
+- Speed against the current → Upstream Speed
 
 🎯 [[09 - Set-5 (Boats & Streams).pdf#page=4|Problem 2:]]
-Downstream Speed.
+- From the question here, "downstream" refers to downstream speed.
+
+![[image 13.png|400]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=5|Problem 3:]]**
-- Upstream Distance is equal to Downstream Distance in this problem, so the Time Ratio can be inversed to the Speed Ratio for this problem.
 - The Time Ratio can be inversed to the Speed Ratio only when the Distance is constant.
+- Upstream Distance is equal to Downstream Distance in this problem, so the Time Ratio can be inversed to the Speed Ratio for this problem.
+
+![[image 11.jpg|300]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=6|Problem 4:]]**
-- Upstream Speed.
-- Downstream Speed.
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+- From the question here, "upstream" refers to upstream speed, and "downstream" refers to downstream speed.
 
-In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+![[image 12.png|400]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=7|Problem 5:]]**
 Upstream Speed.
@@ -120,4 +126,9 @@ Upstream Speed.
 ![[image 9.jpg|200]]
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=17|Problem 15:]]**
-Distance is being directly asked here, so we can't assume the Distance value for the "Same Distance" keyword.
+- Distance is being directly asked here, so we can't assume the Distance value by taking the LCM of those Speed values for the "Same Distance" keyword.
+- If the question says it takes 'x' hours more or less time in one direction than the other direction to cover the same Distance, use the Time difference equation to solve the problem.
+
+- If the question has the keyword "Equal/Same/Identical", start the sum by equating the corresponding quantities. 
+
+![[image 10.JPG|300]]
