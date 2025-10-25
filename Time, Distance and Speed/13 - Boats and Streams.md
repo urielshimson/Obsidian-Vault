@@ -22,14 +22,14 @@
 
 ---
 
-🧩 Problems
+**🧩 Problems**
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=3|Problem 1:]]**
 - Speed along the current → Downstream Speed
 - Speed against the current → Upstream Speed
 
 🎯 [[09 - Set-5 (Boats & Streams).pdf#page=4|Problem 2:]]
-- From the question here, "downstream" refers to downstream speed.
+- From the question here, "downstream" refers to the downstream speed.
 
 ![[image 13.png|400]]
 
@@ -41,7 +41,7 @@
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=6|Problem 4:]]**
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
-- From the question here, "upstream" refers to upstream speed, and "downstream" refers to downstream speed.
+- From the question here, "upstream" refers to the upstream speed, and "downstream" refers to the downstream speed.
 
 ![[image 12.png|400]]
 
@@ -128,7 +128,91 @@ Upstream Speed.
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=17|Problem 15:]]**
 - Distance is being directly asked here, so we can't assume the Distance value by taking the LCM of those Speed values for the "Same Distance" keyword.
 - If the question says it takes 'x' hours more or less time in one direction than the other direction to cover the same Distance, use the Time difference equation to solve the problem.
-
 - If the question has the keyword "Equal/Same/Identical", start the sum by equating the corresponding quantities. 
 
 ![[image 10.JPG|300]]
+
+---
+
+**🧩 Test Yourself**
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=2|Problem 2:]]**
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+- From the question, "upstream" refers to the upstream speed.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=3|Problem 3:]]**
+- The circled parts denote the Upstream Speed and Downstream Speed.
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=5|Problem 5:]]**
+💡 **Sample Value Substitution Method**: 
+- If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
+- Start with the equation that has the smaller total time value, or one that can be split equally.
+- Try values for the denominators (b+s and b-s) that make both sides of the equation balance correctly.
+- Always ensure that the value of b+s is greater than the value of b-s.
+- Finally, solve the two equations  b + s = ... and  b - s = ... to find the values of b and s.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=6|Problem 6:]]**
+
+![[image 14.jpg|200]]
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=7|Problem 7:]]**
+
+💡 **Sample Value Substitution Method**: 
+- If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
+- Start with the equation that has the smaller total time value, or one that can be split equally.
+- Try values for the denominators (b+s and b-s) that make both sides of the equation balance correctly.
+- Always ensure that the value of b+s is greater than the value of b-s.
+- Finally, solve the two equations  b + s = ... and  b - s = ... to find the values of b and s.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=8|Problem 8:]]**
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=9|Problem 9:]]**
+💡 **Sample Value Substitution Method**: 
+- If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
+- Start with the equation that has the smaller total time value, or one that can be split equally.
+- Try values for the denominators (b+s and b-s) that make both sides of the equation balance correctly.
+- Always ensure that the value of b+s is greater than the value of b-s.
+- Finally, solve the two equations  b + s = ... and  b - s = ... to find the values of b and s.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=10|Problem 10:]]**
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=11|Problem 11:]]**
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+
+🎯[[10 - BOAT-1-SOLVING.pdf#page=12|Problem 12:]]
+💡 **Reciprocal Substitution Method**:
+- If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
+- Let u = 1/b-s and d = 1/b+s
+- Rewrite the original Time equations in terms of u and d to eliminate complex fractions.
+- Solve the new equations to find the value of u and d.
+- Then, take reciprocals of u and d to find the actual speeds 1/u = b-s and 1/d = b+s.
+- Finally, solve the two equations b+s = ... and b-s = ... to find the values of b and s.
+
+🎯[[10 - BOAT-1-SOLVING.pdf#page=13|Problem 13:]]
+- In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
+
+🎯[[10 - BOAT-1-SOLVING.pdf#page=14|Problem 14:]]
+💡 **Reciprocal Substitution Method**:
+- If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
+- Let u = 1/b-s and d = 1/b+s
+- Rewrite the original Time equations in terms of u and d to eliminate complex fractions.
+- Solve the new equations to find the value of u and d.
+- Then, take reciprocals of u and d to find the actual speeds 1/u = b-s and 1/d = b+s.
+- Finally, solve the two equations b+s = ... and b-s = ... to find the values of b and s.
+
+**🎯[[10 - BOAT-1-SOLVING.pdf#page=16|Problem 16:]]**
+- The Speed Ratio can be inversed to the Time Ratio only when the Distance is constant.
+- Upstream Distance is equal to Downstream Distance in this problem, so the Speed Ratio can be inversed to the Time Ratio for this problem.
+
+✅ Rounding Rule:
+- If the number after the decimal point is 5 or more → Round up to the next whole number.
+- If the number after the decimal point is less than 5 → Round down to the same whole number.
+
+![[image 15.jpg|300]]
+
+![[image 16.jpg|300]]
+
+![[image 17.jpg|300]]
