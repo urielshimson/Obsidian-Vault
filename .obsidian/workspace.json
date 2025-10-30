@@ -4,59 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0995abccd442067c",
+        "id": "7e8061df22a74ec3",
         "type": "tabs",
-        "dimension": 47.97639123102867,
         "children": [
           {
-            "id": "1d6ec91bda3408a0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion OCR.pdf",
-                "page": 9,
-                "left": -48,
-                "top": 4,
-                "zoom": 0.3428122181321762
-              },
-              "icon": "lucide-file-text",
-              "title": "03 - SET-1 Race & Circular Motion OCR"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6b04f99fbf52994d",
-        "type": "tabs",
-        "dimension": 52.02360876897133,
-        "children": [
-          {
-            "id": "2c7731cbbd81b027",
+            "id": "e23e09669b631f80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/01 - Basics.md",
+                "file": "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Basics"
-            }
-          },
-          {
-            "id": "0d06d0e6552d2aa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time, Distance and Speed/13 - Boats and Streams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "13 - Boats and Streams"
+              "title": "07 - Train - Passing Stationary Objects or Persons"
             }
           }
         ]
@@ -222,11 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c7731cbbd81b027",
+  "active": "e23e09669b631f80",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",
+    "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
+    "Time, Distance and Speed/01 - Basics.md",
+    "Time, Distance and Speed/images/image 21.png",
+    "Time, Distance and Speed/images/image 22.png",
     "Time, Distance and Speed/06 - Race & Circular Motion.md",
     "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion OCR.pdf",
-    "Time, Distance and Speed/01 - Basics.md",
+    "Time, Distance and Speed/12 - Trains - Traps.md",
     "Important Calculation Methods/Notes.md",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/images/image 20.png",
@@ -234,13 +201,11 @@
     "Time, Distance and Speed/images/image 18.jpg",
     "Time, Distance and Speed/13 - Boats and Streams.md",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
-    "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/11 - Trains - Tough and Tricky.md",
-    "Time, Distance and Speed/12 - Trains - Traps.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Time, Distance and Speed/pdfs/10 - BOAT-1-SOLVING.pdf",
     "Time, Distance and Speed/images/image 17.jpg",
@@ -249,8 +214,6 @@
     "Time, Distance and Speed/images/image 14.jpg",
     "Time, Distance and Speed/images/image 13.png.~tmp",
     "Time, Distance and Speed/images/image 13.png",
-    "Time, Distance and Speed/images/image 12.png",
-    "Time, Distance and Speed/images/image 11.jpg",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Important Calculation Methods/Long Division Method.md"
   ]

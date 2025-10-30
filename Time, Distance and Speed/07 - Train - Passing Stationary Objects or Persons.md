@@ -1,9 +1,23 @@
-**Page 34:**
-- In this triangle, place D, S, T alphabetically.
-- Speed formula is represented as: In certain Time, how much Distance can be covered.
-- Speed here is represented as: In 1 hour I can cover 120 km.
+
+---
+
+**📄[[05 - SET-2 (Trains Basics).pdf#page=1|05 - SET-2 (Trains Basics), p.1]]**
+
+---
+
+**⭐ Basic Concepts**
+
 - In trains, distance "D" is the passing distance.
 - In train problems, the distance "D" value will always be in m/s, because the length of the train is measured in meters.
+- Mnemonic → Department of Science and Technology.
+
+![[image 21.png|300]]
+
+![[image 22.png|350]]
+
+---
+
+
 
 **Page 39:**
 Use the Chain Rule to relate Distance and Time proportionally using Speed, and calculate the unknown Time.
