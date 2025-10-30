@@ -1,11 +1,54 @@
-**Page 31:**
-Distance and Speed are directly proportional (when Time is constant), so their Ratios are equal.
 
-**Page 32:**
-- Hare is the winner in Leaps because Hare takes more Leaps.
-- Dog is the winner in Leap Size because the Leap Size of Dog is bigger.
-- In the points table, the row and column header names must be placed in the same order as they are given in the question.
+---
+**📄[[03 - SET-1 Race & Circular Motion OCR.pdf#page=1|03 - SET-1 Race & Circular Motion OCR, p.1]]**
 
-**Page 33:**
-- Ram's speed is 25% faster than Sham's, So, Ram travels 25% more distance than Sham.
-- "Than" keyword in the question indicates the base value for the fraction equivalent to 25%.
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=2|Problem 1:]]**
+
+**✅ Relative Speed – Key Concept**
+- Relative Speed applies only to problems where two objects are moving towards or away from each other.
+- In relative speed problems, when two objects move in the same direction, it's called a chasing scenario. When they move in opposite directions, it's called a meeting scenario.
+
+**✅ Relative Speed (Like a Magnet)**
+- 2 objects moving in the same direction → Subtract the 2 Speeds. 
+- 2 objects moving in the opposite direction → Add the 2 Speeds.
+- Remember: (**S**)ame → (**S**)ubtract
+
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=5|Problem 4:]]**
+- For linear race type problems, solve them using the equation method.
+- The arrow marks in the equations represent the word "covers".
+- The winner takes less time to finish the race than the loser.
+- Since Vishu’s speed is constant in both cases, we can subtract the two equations.
+
+![[image 20.png]]
+
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=6|Problem 5:]]**
+![[image 19.JPG|300]]
+
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=8|Problem 7:]]**
+- LCM of lap times → To find the first meeting time at the starting point, when both runners have completed whole laps and therefore meet simultaneously. It is because LCM is the smallest time that is a multiple of both individual lap times.
+- Relative speed → To find the first meeting time anywhere on the track, not necessarily at the starting point.
+
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=10|Problem 9:]]**
+
+Relative Speed Method:
+
+![[image 18.jpg|300]]
+
+---
+
+**🎯 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=14|Problem 13:]]**
+- For linear race type problems, solve them using the equation method.
+- The arrow marks in the equations represent the word "covers".
+- The winner takes less time to finish the race than the loser.
+
+---
