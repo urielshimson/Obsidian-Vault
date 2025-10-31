@@ -8,7 +8,7 @@
 **⭐ Basic Concepts**
 
 - In trains, distance "D" is the passing distance.
-- In train problems, the distance "D" value will always be in m/s, because the length of the train is measured in meters.
+- In train problems, the length of the train should always be expressed in meters (m).
 - Mnemonic → Department of Science and Technology.
 
 ![[image 21.png|300]]
@@ -17,6 +17,17 @@
 
 ---
 
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=3|Problem 1:]]**
+- To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
+- To convert from a smaller unit to a larger unit, use a fraction with a larger numerator (e.g., m/s to km/h → multiply by 18/5).
+
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
+![[image 23.jpg|250]]
+
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=7|Problem 5:]]**
+- When a train passes a lengthy object in "X+Y" seconds, it first covers the object’s length in "x" seconds, then its own length in the remaining "y" seconds.
+- When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
+![[image 24.jpg|250]]
 
 
 **Page 39:**
