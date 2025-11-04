@@ -29,20 +29,34 @@
 - When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
 ![[image 24.jpg|250]]
 
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=8|Problem 6:]]**
+- When Speed is constant, Distance and Time are Directly Proportional
+  Formula: D = S × T (or) T = D / S
+- When Distance is constant, Speed and Time are Inversely Proportional
+  Formula: T = D / S (or) S = D / T
+- When Time is constant, Distance and Speed are Directly Proportional
+  Formula: D = S × T (or) S = D / T
 
-**Page 39:**
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=9|Problem 7:]]**
+- If a train travels at a constant Speed and takes the same amount of Time to pass certain Distances, it means those Distances are of equal length.
+
+![[image 25.png|350]]
+
+
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
 Use the Chain Rule to relate Distance and Time proportionally using Speed, and calculate the unknown Time.
 
-**Page 40:**
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=7|Problem 5:]]**
 - When a train passes a lengthy object in "X+Y" seconds, it first covers the object's length in "x" seconds, then its own length in the remaining "y" seconds.
 - When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
 
-**Page 42:**
-If a train travels at a constant Speed and takes the same amount of Time to pass certain Distances, it means those Distances are of equal length.
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=10|Problem 8:]]**
+- To get P% of the Original Speed: New Speed = Original Speed × (P / 100).
+- To get P% less than the Original Speed: New Speed = Original Speed × (1 - P/100).
 
-**Page 43:**
-- To get P% of its Original Speed: New Speed = Original Speed × (P / 100).
-- To get P% less than its Original Speed: New Speed = Original Speed × (1 - P/100).
+![[image 26.jpg|300]]
 
-**Page 44:**
-If the question has the keyword "Equal/Same/Identical", start the sum by equating the corresponding quantities.
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=11|Problem 9:]]**
+- If the question has the keyword "Equal/Same/Identical", start the sum by equating the corresponding quantities. 
+
+![[image 27.jpg|300]]
