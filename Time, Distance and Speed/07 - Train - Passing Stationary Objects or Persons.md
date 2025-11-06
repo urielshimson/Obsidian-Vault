@@ -6,7 +6,6 @@
 ---
 
 **⭐ Basic Concepts**
-
 - In trains, distance "D" is the passing distance.
 - In train problems, the length of the train should always be expressed in meters (m).
 - Mnemonic → Department of Science and Technology.
