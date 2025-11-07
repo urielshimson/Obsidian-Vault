@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "d912de2bc39384e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e667cc925942739",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+                "page": 10,
+                "left": -31,
+                "top": 591,
+                "zoom": 0.4916879180099119
+              },
+              "icon": "lucide-file-text",
+              "title": "06 - SET-3 (Trains Relative Speed)"
+            }
+          }
+        ]
+      },
+      {
         "id": "0976ac4a09ca82dc",
         "type": "tabs",
         "children": [
@@ -14,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -187,14 +209,14 @@
   },
   "active": "66c22d091051450e",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/images/image 29.jpg",
     "Time, Distance and Speed/images/image 28.jpg",
     "Time, Distance and Speed/images/image 30.JPG",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
-    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "New Text Document.txt",
     "Time, Distance and Speed/13 - Boats and Streams.md",
-    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
     "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/06 - Race & Circular Motion.md",
     "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",
