@@ -62,4 +62,3 @@ In Relative Speed type, when two cases have the same passing Distance 'D', and t
 - Same Distance Ratio Method
 
 ![[image 30.JPG|350]]
-ok
