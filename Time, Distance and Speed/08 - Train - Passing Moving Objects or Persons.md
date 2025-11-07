@@ -53,6 +53,10 @@ In Relative Speed type, when two cases have the same passing Distance 'D', and t
 
 ![[image 28.jpg|350]]
 
+- Same Distance Relative Speed Method
+
 ![[image 29.jpg|350]]
+
+- Same Distance Ratio Method
 
 ![[image 30.JPG|350]]

@@ -4,32 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "39584730f8472369",
-        "type": "tabs",
-        "dimension": 49.19571045576407,
-        "children": [
-          {
-            "id": "cf236290b8b48350",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
-                "page": 9,
-                "left": -47,
-                "top": 410,
-                "zoom": 0.3482413511042679
-              },
-              "icon": "lucide-file-text",
-              "title": "06 - SET-3 (Trains Relative Speed)"
-            }
-          }
-        ]
-      },
-      {
         "id": "9a3def832e461143",
         "type": "tabs",
-        "dimension": 50.80428954423593,
         "children": [
           {
             "id": "66d744957caf809b",
@@ -190,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
