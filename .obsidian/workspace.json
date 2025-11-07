@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -142,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Time, Distance and Speed/01 - Basics.md",
+                "file": "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 - Basics"
+              "title": "Outline of 08 - Train - Passing Moving Objects or Persons"
             }
           },
           {
-            "id": "7e96ea9f5435e17d",
+            "id": "972d7d6096abd2c7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,16 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e96ea9f5435e17d",
+  "active": "66c22d091051450e",
   "lastOpenFiles": [
-    "New Text Document.txt",
-    "Time, Distance and Speed/09 - Trains - Two Stations.md",
-    "Time, Distance and Speed/13 - Boats and Streams.md",
-    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
-    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
-    "Time, Distance and Speed/images/image 28.jpg",
     "Time, Distance and Speed/images/image 29.jpg",
+    "Time, Distance and Speed/images/image 28.jpg",
     "Time, Distance and Speed/images/image 30.JPG",
+    "Time, Distance and Speed/09 - Trains - Two Stations.md",
+    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
+    "New Text Document.txt",
+    "Time, Distance and Speed/13 - Boats and Streams.md",
+    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
     "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/06 - Race & Circular Motion.md",
     "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",

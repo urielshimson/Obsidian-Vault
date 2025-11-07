@@ -48,6 +48,8 @@ When cancelling m/s units on both sides of an equation, the result will be in km
 - In Relative Speed type, when two cases are given in the question, start the sum by equating the quantity (usually the passing distance 'D') that remains constant in both cases.
 - In Relative Speed type, when two cases have the same passing Distance 'D', and their corresponding Time values and one Speed value are given in the question, you can find the unknown Speed by inversing the Time Ratio to get the Speed Ratio. Then, use this Speed Ratio to set up a Proportion using the Relative Speeds to find the unknown Speed. Note that one Speed value must be given in the question to find the unknown Speed.
 
+---
+
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=11|Problem 6:]]**
 In Relative Speed type, when two cases have the same passing Distance 'D', and their corresponding Time values and one Speed value are given in the question, you can find the unknown Speed by inversing the Time Ratio to get the Speed Ratio. Then, use this Speed Ratio to set up a Proportion using the Relative Speeds to find the unknown Speed. Note that one Speed value must be given in the question to find the unknown Speed.
 
