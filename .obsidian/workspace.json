@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "1316b7559305075c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7d2a8412b541309",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+                "page": 10,
+                "left": -31,
+                "top": 545,
+                "zoom": 0.488079199345619
+              },
+              "icon": "lucide-file-text",
+              "title": "06 - SET-3 (Trains Relative Speed)"
+            }
+          }
+        ]
+      },
+      {
         "id": "0976ac4a09ca82dc",
         "type": "tabs",
         "children": [
