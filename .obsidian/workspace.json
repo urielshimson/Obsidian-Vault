@@ -15,9 +15,9 @@
               "state": {
                 "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
                 "page": 10,
-                "left": -31,
-                "top": 545,
-                "zoom": 0.488079199345619
+                "left": -25,
+                "top": 544,
+                "zoom": 0.6261126882548236
               },
               "icon": "lucide-file-text",
               "title": "06 - SET-3 (Trains Relative Speed)"
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "71288c71c46d1460",
