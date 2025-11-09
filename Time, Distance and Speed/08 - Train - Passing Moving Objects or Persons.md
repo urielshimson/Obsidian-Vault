@@ -56,7 +56,7 @@ When cancelling m/s units on both sides of an equation, the result will be in km
 
 **A train X travelling at 60 kmph overtakes another train Y, 225 meter long, and completely passes it in 72 seconds. If the trains had been going in opposite directions, they would have passed each other in 18 seconds. The length (in meter) of X and the speed (in kmph) of Y are, respectively:**
 
-(1) 245 and 45      
+(1) 245 and 45
 (2) 245 and 54
 ==(3) 255 and 36==
 (4) 255 and 40
