@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
-                "page": 10,
+                "page": 8,
                 "left": -31,
-                "top": 591,
+                "top": 399,
                 "zoom": 0.4916879180099119
               },
               "icon": "lucide-file-text",
@@ -36,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
