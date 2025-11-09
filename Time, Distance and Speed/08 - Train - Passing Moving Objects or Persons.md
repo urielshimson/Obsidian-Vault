@@ -47,6 +47,14 @@ When cancelling m/s units on both sides of an equation, the result will be in km
 ---
 
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=10|Problem 9:]]**
+
+**A train travelling at 44 km/h crosses a man walking with a speed of 8 km/h in the same direction, in 15 seconds. If the train crosses a woman coming from the opposite direction in 10 seconds, then what is the speed (in km/h) of the woman?**
+
+(1) 10.5 
+==(2) 10== 
+(3) 9 
+(4) 8
+
 - In Relative Speed type, when two cases are given in the question, start the sum by equating the quantity (usually the passing distance 'D') that remains constant in both cases.
 - In Relative Speed type, when two cases have the same passing Distance 'D', and their corresponding Time values and one Speed value are given in the question, you can find the unknown Speed by inversing the Time Ratio to get the Speed Ratio. Then, use this Speed Ratio to set up a Proportion using the Relative Speeds to find the unknown Speed. Note that one Speed value must be given in the question to find the unknown Speed.
 
