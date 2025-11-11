@@ -13,7 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf"
+                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+                "page": 9,
+                "left": -31,
+                "top": 10,
+                "zoom": 0.48807919934561905
               },
               "icon": "lucide-file-text",
               "title": "06 - SET-3 (Trains Relative Speed)"
@@ -31,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
+                "file": "Time, Distance and Speed/02 - Average Speed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 - Train - Passing Moving Objects or Persons"
+              "title": "02 - Average Speed"
             }
           }
         ]
@@ -96,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "71288c71c46d1460",
@@ -206,9 +209,10 @@
   },
   "active": "66c22d091051450e",
   "lastOpenFiles": [
-    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
-    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Untitled.md",
+    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
+    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
     "Time, Distance and Speed/images/image 29.jpg",
     "Time, Distance and Speed/images/image 28.jpg",
     "Time, Distance and Speed/images/image 30.JPG",
@@ -225,7 +229,6 @@
     "Time, Distance and Speed/images/image 25.png",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/01 - Basics.md",
-    "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Time, Distance and Speed/05 - Stoppage.md",
