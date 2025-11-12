@@ -1,5 +1,7 @@
 
-**⭐ Basics**
+
+
+** Basics**
 
 📌 **1) Formula**
 - Speed = Distance / Time  
