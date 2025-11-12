@@ -7,11 +7,13 @@
 
 **⭐ Basic Concepts**
 
-**✅ Relative Speed – Key Concept**
+** 📌 1) Relative Speed – Key Concept**
 - Relative Speed applies only to problems where two objects are moving towards or away from each other.
 - In relative speed problems, when two objects move in the same direction, it's called a chasing scenario. When they move in opposite directions, it's called a meeting scenario.
 
-**✅ Relative Speed (Like a Magnet)**
+**📌 2) Rules for solving Relative Speed problems **
+
+- Relative Speed (Like a Magnet)
 - 2 objects moving in the same direction → Subtract the 2 Speeds. 
 - 2 objects moving in the opposite direction → Add the 2 Speeds.
 - Remember: (**S**)ame → (**S**)ubtract
