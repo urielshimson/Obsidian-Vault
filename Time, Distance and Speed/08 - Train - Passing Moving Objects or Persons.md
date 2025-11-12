@@ -7,7 +7,7 @@
 
 **⭐ Basic Concepts**
 
-** 📌 1) Relative Speed – Key Concept**
+** 📌 1. Relative Speed – Key Concept**
 - Relative Speed applies only to problems where two objects are moving towards or away from each other.
 - In relative speed problems, when two objects move in the same direction, it's called a chasing scenario. When they move in opposite directions, it's called a meeting scenario.
 
