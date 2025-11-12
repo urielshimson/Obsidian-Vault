@@ -29,14 +29,23 @@
 ---
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=2|Problem 1:]]**
+
+**Express the speed of 36 kilometers per hours in meters per second.**
+
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
 ---
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=3|Problem 2:]]**
+**Express 25 meters per second in kilometers per hour.**
 - To convert from a smaller unit to a larger unit, use a fraction with a larger numerator (e.g., m/s to km/h → multiply by 18/5).
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=5|Problem 3:]]**
+Speed of train is 90 kmph. What is the distance covered by it in 10 minutes?
 - Use the Chain Rule to relate Time and Distance proportionally using Speed, and calculate the unknown Distance.
+
+**A car covers a distance of 624 km in 6 1/2 hours. Find its speed.**
+
+
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=9|Problem 7:]]**
 - If the question has multiple Speed values or Time values along with the "Same Distance" keyword, assume the Distance to be the LCM of those Speeds or Times. This is because, according to the formula D = S × T, the Distance must be a common multiple of the given Speeds or Times.
