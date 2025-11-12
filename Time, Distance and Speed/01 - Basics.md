@@ -30,7 +30,7 @@
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=2|Problem 1:]]**
 
-Express the speed of 36 kilometers per hour in meters per second.
+**Express the speed of 36 kilometers per hour in meters per second.**
 
 ==(A) 10==
 (B) 12
@@ -43,7 +43,7 @@ Express the speed of 36 kilometers per hour in meters per second.
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=3|Problem 2:]]**
 
-Express 25 meters per second in kilometers per hour.
+**Express 25 meters per second in kilometers per hour.**
 
 (A) 15
 (B) 99
@@ -56,7 +56,7 @@ Express 25 meters per second in kilometers per hour.
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=5|Problem 3:]]**
 
-Speed of train is 90 kmph. What is the distance (D = ?) covered by it in 10 minutes?
+**Speed of train is 90 kmph. What is the distance (D = ?) covered by it in 10 minutes?**
 
 ==(A) 15 km==
 (B) 12 km
@@ -69,9 +69,9 @@ Speed of train is 90 kmph. What is the distance (D = ?) covered by it in 10 minu
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=6|Problem 4:]]**
 
-A car covers a distance of 624 km in 6 1/2 hours. Find its speed.
+**A car covers a distance of 624 km in 6 1/2 hours. Find its speed.**
 
-**(A) 96 kmph**
+==(A) 96 kmph==
 (B) 104 kmph
 (C) 10.4 kmph
 (D) 9.6 kmph
@@ -80,7 +80,7 @@ A car covers a distance of 624 km in 6 1/2 hours. Find its speed.
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=7|Problem 5:]]**
 
-In what time will a railway train 60 m long moving at the rate of 36 kmph pass a telegraph post on its way?
+**In what time will a railway train 60 m long moving at the rate of 36 kmph pass a telegraph post on its way?**
 
 (A) 9 secs
 (B) 8 secs
@@ -91,7 +91,7 @@ In what time will a railway train 60 m long moving at the rate of 36 kmph pass a
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=8|Problem 6:]]**
 
-A train 360 m long is running at the speed of 45 km/hr. In what time will it pass a bridge 140 m long?
+**A train 360 m long is running at the speed of 45 km/hr. In what time will it pass a bridge 140 m long?**
 
 ==(A) 40 secs==
 (B) 42 secs
@@ -102,7 +102,7 @@ A train 360 m long is running at the speed of 45 km/hr. In what time will it pas
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=9|Problem 7:]]**
 
-The speed of the three cars are in the ratio 2:3:4. The ratio of the time taken by these cars to travel the same distance is:
+**The speed of the three cars are in the ratio 2:3:4. The ratio of the time taken by these cars to travel the same distance is:**
 
 (A) 2:3:4
 (B) 4:3:2
@@ -116,7 +116,7 @@ The speed of the three cars are in the ratio 2:3:4. The ratio of the time taken 
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=10|Problem 8:]]**
 
-Sound is said to travel in air at about 1100 feet per second. A man hears the axe striking the tree 115\frac{11}{5}511​ second after he sees it strike the tree. How far is the man from the wood chopper (in feet)?
+**Sound is said to travel in air at about 1100 feet per second. A man hears the axe striking the tree 115\frac{11}{5}511​ second after he sees it strike the tree. How far is the man from the wood chopper (in feet)?**
 
 ==(A) 2420==
 (B) 2524
@@ -127,7 +127,7 @@ Sound is said to travel in air at about 1100 feet per second. A man hears the ax
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=11|Problem 9:]]**
 
-A man in a train notices that he can count 41 telephone posts in one minute. If they are known to be 50 meters apart, then at what speed is the train traveling in kmph?
+**A man in a train notices that he can count 41 telephone posts in one minute. If they are known to be 50 meters apart, then at what speed is the train traveling in kmph?**
 
 (A) 60
 (B) 100
@@ -138,7 +138,7 @@ A man in a train notices that he can count 41 telephone posts in one minute. If 
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=12|Problem 10:]]**
 
-Two cars cover the same distance at 60 kmph and 64 kmph respectively. Find the distance traveled by them if the slower car takes 1 hour more than the faster car.
+**Two cars cover the same distance at 60 kmph and 64 kmph respectively. Find the distance traveled by them if the slower car takes 1 hour more than the faster car.**
 
 (A) 906 kms
 ==(B) 960 kms==
