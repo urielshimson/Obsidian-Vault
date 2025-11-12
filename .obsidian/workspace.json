@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/00 - Summary.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -225,13 +225,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ec610897cb21d26",
+  "active": "5be3db66909a653c",
   "lastOpenFiles": [
+    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
-    "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
     "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
