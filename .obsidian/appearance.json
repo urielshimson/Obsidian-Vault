@@ -1,6 +1,7 @@
 {
   "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [
-    "no-page-break"
+    "no-page-break",
+    "questions"
   ]
 }
