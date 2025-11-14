@@ -168,18 +168,3 @@
 ![[image 40.jpg|300]]
 
 ---
-
-Solving Tricks
-
-![](images/image 31.jpg){ width=300px }
-
-
-
-
-
-
-
-
-
-
-
