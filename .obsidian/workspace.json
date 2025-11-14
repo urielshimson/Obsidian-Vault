@@ -13,7 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf"
+                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+                "page": 13,
+                "left": -31,
+                "top": 574,
+                "zoom": 0.488079199345619
               },
               "icon": "lucide-file-text",
               "title": "01 - SET-1 (TDS problems) Part 1"
@@ -32,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/01 - Basics.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -205,22 +209,25 @@
   },
   "active": "26f414e1d523f6a4",
   "lastOpenFiles": [
+    "output/01 - Basics.html",
+    "output/attachment/38e7c4cf220ed84efc4ac259b03ae8be.jpg",
+    "output/attachment/58d983cb441e51b5b212f5d9a99bdb0c.jpg",
+    "output/attachment/c7c5a5608f22b502f92584678e6e6147.jpg",
+    "output/attachment/adc6ddf128a49b3bcf67d0d5e5186329.jpg",
+    "output/attachment/6a241dc02ad745ec783ee4cc090e6269.jpg",
+    "output/attachment/9ae549154d8b1bcfb53b457fc494aa0a.jpg",
+    "output/attachment/21f2d9485fd23dc2bec60410e7f5b858.jpg",
+    "output/attachment/c58c330b74e38dae42eb5df9f41dc65a.jpg",
+    "output/attachment/6ad8109a5815d0c31f57a9512e3f56ea.jpg",
+    "output/attachment/72c08855d2052da5c5e6298b98d8f64c.jpg",
+    "output/attachment",
+    "output",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/01 - Basics.md",
     "01.md",
     "Time, Distance and Speed/13 - Boats and Streams.md",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
     "Time, Distance and Speed/10 - Trains - Formula Type.md",
-    "Time, Distance and Speed/images/image 39.jpg",
-    "Time, Distance and Speed/images/image 38.jpg",
-    "Time, Distance and Speed/images/image 37.jpg",
-    "Time, Distance and Speed/images/image 36.jpg",
-    "Time, Distance and Speed/images/image 35.jpg",
-    "Time, Distance and Speed/images/image 34.jpg",
-    "Time, Distance and Speed/images/image 33.jpg",
-    "Time, Distance and Speed/images/image 32.jpg",
-    "Time, Distance and Speed/images/image 31.jpg",
-    "Time, Distance and Speed/images/image 40.jpg",
     "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
@@ -240,8 +247,6 @@
     "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed - Shortcut (2).lnk",
     "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion OCR.pdf",
-    "Time, Distance and Speed/pdfs/10 - BOAT-1-SOLVING.pdf",
-    "Time, Distance and Speed/images/image 13.png.~tmp",
     "Important Calculation Methods/Long Division Method.md"
   ]
 }
