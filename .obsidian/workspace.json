@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "c2999a911d7943d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adc1aeaaae355b76",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+                "page": 12,
+                "left": -31,
+                "top": 590,
+                "zoom": 0.488079199345619
+              },
+              "icon": "lucide-file-text",
+              "title": "01 - SET-1 (TDS problems) Part 1"
+            }
+          }
+        ]
+      },
+      {
         "id": "1997b764b0a41926",
         "type": "tabs",
         "children": [
@@ -14,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/01 - Basics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -187,8 +209,10 @@
   },
   "active": "26f414e1d523f6a4",
   "lastOpenFiles": [
-    "Time, Distance and Speed/13 - Boats and Streams.md",
+    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/01 - Basics.md",
+    "01.md",
+    "Time, Distance and Speed/13 - Boats and Streams.md",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
     "Time, Distance and Speed/10 - Trains - Formula Type.md",
     "Time, Distance and Speed/images/image 39.jpg",
@@ -201,7 +225,6 @@
     "Time, Distance and Speed/images/image 32.jpg",
     "Time, Distance and Speed/images/image 31.jpg",
     "Time, Distance and Speed/images/image 40.jpg",
-    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",

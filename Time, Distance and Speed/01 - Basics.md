@@ -155,7 +155,7 @@
 
 ---
 
-**🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=12|Problem 10:]]**
+🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=12|Problem 10:]]
 
 **Two cars cover the same distance at 60 kmph and 64 kmph respectively. Find the distance traveled by them if the slower car takes 1 hour more than the faster car.**
 
