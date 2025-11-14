@@ -131,7 +131,7 @@
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=10|Problem 8:]]**
 
-**Sound is said to travel in air at about 1100 feet per second. A man hears the axe striking the tree 115\frac{11}{5}511​ second after he sees it strike the tree. How far is the man from the wood chopper (in feet)?**
+**Sound is said to travel in air at about 1100 feet per second. A man hears the axe striking the tree, 11/5​ second after he sees it strike the tree. How far is the man from the wood chopper (in feet)?**
 
 ==(A) 2420==
 (B) 2524
@@ -170,6 +170,9 @@
 ---
 
 Solving Tricks
+
+![](images/image 31.jpg){ width=300px }
+
 
 
 
