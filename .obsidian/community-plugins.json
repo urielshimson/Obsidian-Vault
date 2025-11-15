@@ -4,5 +4,6 @@
   "obsidian-style-settings",
   "obsidian-git",
   "obsidian-pandoc",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-markdown-export-plugin"
 ]
