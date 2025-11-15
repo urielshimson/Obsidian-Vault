@@ -169,8 +169,6 @@
 
 ---
 
-![500](img1.png)
-
 <p align="center">
-  <img src="images/" width="300">
+  <img src="images/image 26.jpg" width="500">
 </p>

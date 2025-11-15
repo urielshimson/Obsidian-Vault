@@ -2,9 +2,9 @@
   "obsidian-excalidraw-plugin",
   "pdf-plus",
   "obsidian-style-settings",
-  "obsidian-git",
   "obsidian-pandoc",
   "better-export-pdf",
   "obsidian-markdown-export-plugin",
-  "quickadd"
+  "quickadd",
+  "obsidian-git"
 ]
