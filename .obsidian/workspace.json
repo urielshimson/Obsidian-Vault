@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/01 - Basics.md",
+                "file": "templates/InsertImageTemplate.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Basics"
+              "title": "InsertImageTemplate.md"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "3f77b9a162516160",
   "lastOpenFiles": [
-    "images/img.md",
     "Time, Distance and Speed/01 - Basics.md",
+    "templates/InsertImageTemplate.md.md",
+    "images/img.md",
     "images",
     "templates/image-template.md",
     "templates",
@@ -231,7 +232,6 @@
     "01.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Important Calculation Methods/Notes.md",
-    "Untitled.md",
-    "Important Calculation Methods/Long Division Method.md"
+    "Untitled.md"
   ]
 }
