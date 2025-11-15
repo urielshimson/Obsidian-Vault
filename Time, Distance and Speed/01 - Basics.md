@@ -171,10 +171,14 @@
 
 
 
+<div style="text-align:center;">
+    <img src="img1.png">
+</div>
 
 
-
-
+<div style="text-align:center;">
+    <img src="img2.png">
+</div>
 
 
 
