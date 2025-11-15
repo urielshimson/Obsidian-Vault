@@ -1,11 +1,11 @@
 {
   "choices": [
     {
-      "id": "63d34b24-5c25-4b83-b68e-3e0ac0993439",
+      "id": "d466ec4d-eccf-4977-afa5-5e73d1cf1aad",
       "name": "InsertImage",
       "type": "Template",
-      "command": true,
-      "templatePath": "Templates/InsertImageTemplate.md",
+      "command": false,
+      "templatePath": "",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
