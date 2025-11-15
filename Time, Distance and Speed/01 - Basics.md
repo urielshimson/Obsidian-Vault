@@ -174,6 +174,6 @@
 ![|300](images/image%2031.jpg)
 
 
-![](images/im)
 
-![](imagws/i)
+
+![](images/i)
