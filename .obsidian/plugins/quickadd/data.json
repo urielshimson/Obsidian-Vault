@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "<center>![]({{VALUE}})</center>"
+        "format": "<div align=\"center\">\n\n![]({{VALUE}})\n\n</div>"
       },
       "insertAfter": {
         "enabled": false,

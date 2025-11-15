@@ -171,12 +171,16 @@
 
 
 
-![|300](images/img31.jpg)
 
 
 
-![[img40.jpg|300]]
 
 
 
-<center>![](img1.png)</center>
+
+
+<div align="center">
+
+![](img1.png)
+
+</div>
