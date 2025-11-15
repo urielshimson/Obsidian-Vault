@@ -16,5 +16,14 @@
       ],
       "key": "I"
     }
+  ],
+  "quickadd:choice:d0901303-0f5e-46eb-8652-d128b4e39f79": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
   ]
 }
