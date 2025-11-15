@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8b4e8ff82556d39b",
+        "id": "14aa4b39f92bb49f",
         "type": "tabs",
         "children": [
           {
-            "id": "3f77b9a162516160",
+            "id": "4eae54ca567f8175",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/InsertImageTemplate.md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "InsertImageTemplate.md"
+              "title": "New tab"
             }
           }
         ]
@@ -185,10 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f77b9a162516160",
+  "active": "4eae54ca567f8175",
   "lastOpenFiles": [
-    "Time, Distance and Speed/01 - Basics.md",
+    "templates/InsertImageTemplate.md",
     "templates/InsertImageTemplate.md.md",
+    "Time, Distance and Speed/01 - Basics.md",
     "images/img.md",
     "images",
     "templates/image-template.md",
@@ -231,7 +228,6 @@
     "output",
     "01.md",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
-    "Important Calculation Methods/Notes.md",
-    "Untitled.md"
+    "Important Calculation Methods/Notes.md"
   ]
 }
