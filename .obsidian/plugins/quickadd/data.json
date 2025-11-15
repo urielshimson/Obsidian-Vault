@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "![]({{VALUE}})"
+        "format": "| ![]({{VALUE}}) |\n| :---: |"
       },
       "insertAfter": {
         "enabled": false,
