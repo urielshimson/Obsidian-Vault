@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "<div style=\"text-align:center;\">\n    <img src=\"{{VALUE}}\">\n</div>"
+        "format": "![]({{VALUE}}){.center}"
       },
       "insertAfter": {
         "enabled": false,
