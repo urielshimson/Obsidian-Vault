@@ -169,9 +169,8 @@
 
 ---
 
-![](images/)![](images/ima)
-
-![](images/image%2031.jpg)
 
 
 ![|300](images/image%2031.jpg)
+
+![](images/)
