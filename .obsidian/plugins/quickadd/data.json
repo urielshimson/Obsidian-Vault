@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "![]({{VALUE}}){.center}"
+        "format": "![]({{VALUE}})"
       },
       "insertAfter": {
         "enabled": false,
