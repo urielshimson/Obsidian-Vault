@@ -179,6 +179,4 @@
 
 <p align="center">
 
-  <img src="images/image 26.jpg" width="500">
-
-</p>
+  <img src="imag
