@@ -8,9 +8,13 @@
 - In train problems, the length of the train should always be expressed in meters (m).
 - Mnemonic → Department of Science and Technology.
 
-![[image 21.png|300]]
+<p align="center">
+  <img src="image 21.jpg" width="300">
+</p>
 
-![[image 22.png|350]]
+<p align="center">
+  <img src="image 22.jpg" width="400">
+</p>
 
 ---
 
