@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "01 - Basics"
             }
+          },
+          {
+            "id": "9c57fba212bd5486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ]
       }
@@ -172,11 +186,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "publish:Publish changes...": false,
+      "flowershow:Publish with Flowershow": false
     }
   },
   "active": "bee43132cb96caee",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/08 - Train - Passing Moving Objects or Persons.md",
     "Time, Distance and Speed/09 - Trains - Two Stations.md",
     "Time, Distance and Speed/10 - Trains - Formula Type.md",
@@ -184,7 +202,6 @@
     "Time, Distance and Speed/12 - Trains - Traps.md",
     "Time, Distance and Speed/06 - Race & Circular Motion.md",
     "Time, Distance and Speed/03 - Late or Early.md",
-    "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/images/image 9.jpg",
     "Time, Distance and Speed/images/image 8.png",
     "Time, Distance and Speed/images/image 7.jpg",
@@ -197,7 +214,6 @@
     "Time, Distance and Speed/images/image 37.jpg",
     "Time, Distance and Speed/images",
     "Templates/InsertImageTemplate.md",
-    "Untitled.md",
     "images/img1.png.md",
     "images/img2/png.md",
     "images/img2",

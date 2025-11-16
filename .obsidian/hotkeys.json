@@ -25,5 +25,14 @@
       ],
       "key": "I"
     }
+  ],
+  "quickadd:choice:51d590ce-b15d-42cd-ae5e-a599a904d0ce": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
   ]
 }

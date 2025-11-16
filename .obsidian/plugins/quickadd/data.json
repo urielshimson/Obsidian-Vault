@@ -1,5 +1,46 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "51d590ce-b15d-42cd-ae5e-a599a904d0ce",
+      "name": "InsertImageCentered",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<p align=\"center\">\n  <img src=\"{{VALUE}}\" width=\"500\">\n</p>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
