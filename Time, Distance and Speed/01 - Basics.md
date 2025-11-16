@@ -170,13 +170,7 @@
 ---
 
 <p align="center">
-  <img src="images/image 26.jpg" width="500">
+  <img src="images/image 26.jpg" width="300">
 </p>
 
-<p align="center">
-  <img src="image 1.png" width="500">
-</p>
 
-<p align="center">
-
-  <img src="imag
