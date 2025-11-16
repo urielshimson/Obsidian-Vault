@@ -41,7 +41,9 @@
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=9|Problem 7:]]**
 - If a train travels at a constant Speed and takes the same amount of Time to pass certain Distances, it means those Distances are of equal length.
 
-![[image 25.png|350]]
+<p align="center">
+  <img src="image 25.jpg" width="400">
+</p>
 
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
