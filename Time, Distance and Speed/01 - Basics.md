@@ -39,7 +39,9 @@
 
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
-![[image 31.jpg|300]]
+<p align="center">
+  <img src="image 31.jpg" width="300">
+</p>
 
 ---
 
@@ -54,7 +56,9 @@
 
 - To convert from a smaller unit to a larger unit, use a fraction with a larger numerator (e.g., m/s to km/h → multiply by 18/5).
 
-![[image 32.jpg|350]]
+<p align="center">
+  <img src="image 32.jpg" width="350">
+</p>
 
 ---
 
@@ -69,8 +73,9 @@
 
 - Use the Chain Rule to relate Time and Distance proportionally using Speed, and calculate the unknown Distance.
 
-![[image 33.jpg|300]]
-
+<p align="center">
+  <img src="image 33.jpg" width="300">
+</p>
 
 ---
 
@@ -83,7 +88,9 @@
 (C) 10.4 kmph
 (D) 9.6 kmph
 
-![[image 34.jpg|400]]
+<p align="center">
+  <img src="image 34.jpg" width="400">
+</p>
 
 ---
 
@@ -96,7 +103,9 @@
 (C) 7 secs
 ==(D) 6 secs==
 
-![[image 35.jpg|300]]
+<p align="center">
+  <img src="image 35.jpg" width="300">
+</p>
 
 ---
 
@@ -109,7 +118,9 @@
 (C) 45 secs
 (D) 48 secs
 
-![[image 36.jpg|350]]
+<p align="center">
+  <img src="image 36.jpg" width="350">
+</p>
 
 ---
 
@@ -125,7 +136,9 @@
 - If the question has multiple Speed values or Time values along with the "Same Distance" keyword, assume the Distance to be the LCM of those Speeds or Times. This is because, according to the formula D = S × T, the Distance must be a common multiple of the given Speeds or Times.
 - Inversing the Speed Ratio to find Time Ratio works only for two Ratios. For three Ratios, you must first calculate the Distance value from the Speed Ratios, and then find out the Time Ratio from the Distance value and the Speed Ratios.
 
-![[image 37.jpg|350]]
+<p align="center">
+  <img src="image 37.jpg" width="350">
+</p>
 
 ---
 
@@ -138,7 +151,9 @@
 (C) 2600
 (D) 2740
 
-![[image 38.jpg|300]]
+<p align="center">
+  <img src="image 38.jpg" width="300">
+</p>
 
 ---
 
@@ -151,7 +166,9 @@
 (C) 123
 ==(D) 120==
 
-![[image 39.jpg|350]]
+<p align="center">
+  <img src="image 39.jpg" width="350">
+</p>
 
 ---
 
@@ -165,12 +182,10 @@
 (D) 966 kms
 - If the question has the keyword "Same/Equal/Identical", start the sum by equating the corresponding quantities.
 
-![[image 40.jpg|300]]
+<p align="center">
+  <img src="image 40.jpg" width="300">
+</p>
 
 ---
-
-<p align="center">
-  <img src="images/image 26.jpg" width="300">
-</p>
 
 
