@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "<p align=\"center\">\n  <img src=\"{{VALUE}}\" width=\"500\">\n</p>"
+        "format": "<p align=\"center\">\n  <img src=\"images/{{VALUE}}\" width=\"300\">\n</p>\n"
       },
       "insertAfter": {
         "enabled": false,
