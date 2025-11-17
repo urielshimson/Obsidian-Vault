@@ -187,3 +187,7 @@
 </p>
 
 ---
+
+<p align="center">
+  <img src="images/image-40.jpg" width="250">
+</p>
