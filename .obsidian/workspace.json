@@ -29,7 +29,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf"
+                "file": "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf",
+                "page": 9,
+                "left": -31,
+                "top": 365,
+                "zoom": 0.48807919934561905
               },
               "icon": "lucide-file-text",
               "title": "02 - SET-1 (TDS problems) Part 2"
@@ -48,12 +52,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/03 - Late or Early.md",
+                "file": "Time, Distance and Speed/05 - Stoppage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Late or Early"
+              "title": "05 - Stoppage"
             }
           }
         ]
@@ -113,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "71288c71c46d1460",
@@ -215,6 +218,7 @@
   "active": "517946ccb6c11042",
   "lastOpenFiles": [
     "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf",
+    "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed - Shortcut.lnk",
@@ -229,7 +233,6 @@
     "Time, Distance and Speed/11 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/06 - Race & Circular Motion.md",
     "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
-    "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Important Calculation Methods/Notes.md",
     "what is israel.md",
