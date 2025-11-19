@@ -20,11 +20,15 @@ A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal
 
 Ram and Sham are running a race. Ram runs 25% faster than Sham and is able to defeat Sham by a lead of 7 meters. Find the distance of the race.
 
-The than keyword points to the base value used for comparison, so it must always be placed in the denominator.
-
 (A) 32
 ==(B) 35==
 (C) 28
 (D) 40.5
+
+- The than keyword points to the base value used for comparison, so it must always be placed in the denominator.
+
+<p align="center">
+  <img src="images/image 41.jpg" width="400">
+</p>
 
 ---
