@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "ec850985f800b0cc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "22a982db06d936cc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf",
-                "page": 15,
-                "left": -31,
-                "top": 323,
-                "zoom": 0.48807919934561905
-              },
-              "icon": "lucide-file-text",
-              "title": "02 - SET-1 (TDS problems) Part 2"
-            }
-          }
-        ]
-      },
-      {
         "id": "a215dabde063917f",
         "type": "tabs",
         "children": [
@@ -42,8 +20,21 @@
               "icon": "lucide-file",
               "title": "06 - Race Type"
             }
+          },
+          {
+            "id": "377bd81df783743e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Time, Distance and Speed/images/Drawing 2025-11-19 22.50.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-11-19 22.50.57.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,12 +189,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "476ac270274732dc",
+  "active": "377bd81df783743e",
   "lastOpenFiles": [
     "Time, Distance and Speed/images/image 43.jpg",
+    "Excalidraw/Drawing 2025-11-19 22.50.39.excalidraw.md",
+    "Time, Distance and Speed/images/Drawing 2025-11-19 22.50.57.excalidraw.md",
+    "Time, Distance and Speed/06 - Race Type.md",
+    "Excalidraw",
     "Time, Distance and Speed/images/pp.jpg",
     "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf",
-    "Time, Distance and Speed/06 - Race Type.md",
     "Time, Distance and Speed/images/image 42.jpg",
     "Time, Distance and Speed/images/24.jpg",
     "Time, Distance and Speed/images/image 41.jpg",
@@ -235,16 +229,12 @@
     "Time, Distance and Speed/07 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Important Calculation Methods/Notes.md",
-    "what is israel.md",
-    "Digital Garde Home.md",
     "Time, Distance and Speed/images/image 25.jpg.~tmp",
     "Time, Distance and Speed/images/image 25.jpg",
     "Time, Distance and Speed/images/image 22.jpg.~tmp",
     "Time, Distance and Speed/images/image 22.jpg",
     "Time, Distance and Speed/images/image 21.jpg.~tmp",
     "Time, Distance and Speed/images/image 21.jpg",
-    "Time, Distance and Speed/images/image 20.jpg.~tmp",
-    "Time, Distance and Speed/images/image 20.jpg",
-    "Time, Distance and Speed/images/image 13.jpg.~tmp"
+    "Time, Distance and Speed/images/image 20.jpg.~tmp"
   ]
 }

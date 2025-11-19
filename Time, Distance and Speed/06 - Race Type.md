@@ -15,7 +15,7 @@ A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal
 (D) 9:2
 
 <p align="center">
-  <img src="images/image 42.jpg" width="400">
+  <img src="images/image 42.jpg" width="450">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Ram and Sham are running a race. Ram runs 25% faster than Sham and is able to de
 - The than keyword points to the base value used for comparison, so it must always be placed in the denominator.
 
 <p align="center">
-  <img src="images/image 41.jpg" width="400">
+  <img src="images/image 41.jpg" width="450">
 </p>
 
 ---
