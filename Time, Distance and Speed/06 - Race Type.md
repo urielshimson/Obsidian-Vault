@@ -18,6 +18,11 @@ A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal
   <img src="images/image 42.jpg" width="400">
 </p>
 
+<p align="center">
+  <img src="images/image 43.jpg" width="450">
+</p>
+
+
 ---
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=17|Problem 25:]]**
