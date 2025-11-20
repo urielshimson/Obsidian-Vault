@@ -7,17 +7,24 @@
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=15|Problem 24:]]**
 
-A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal to 3 leaps of the hare, the ratio of the speed of the dog to that of the hare is:
+**A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal to 3 leaps of the hare, the ratio of the speed of the dog to that of the hare is:**
 
 (A) 4:5
 ==(B) 9:5==
 (C) 8:5
 (D) 9:2
 
+**Method 1:**
 <p align="center">
   <img src="images/image 42.jpg" width="450">
 </p>
 
+**Method 2:**
+
+- In the Points Table, the row and column header names must be placed in the same order as they are given in the question.
+- Hare gets more points in Leaps because Hare takes more leaps than the Dog.
+- Dog gets more points in Leap Size because the leap size of the Dog is bigger than the Hare.
+  
 <p align="center">
   <img src="images/image 43.jpg" width="450">
 </p>
@@ -27,7 +34,7 @@ A dog takes 3 leaps for every 5 leaps of a hare. If one leap of the dog is equal
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=17|Problem 25:]]**
 
-Ram and Sham are running a race. Ram runs 25% faster than Sham and is able to defeat Sham by a lead of 7 meters. Find the distance of the race.
+**Ram and Sham are running a race. Ram runs 25% faster than Sham and is able to defeat Sham by a lead of 7 meters. Find the distance of the race.**
 
 (A) 32
 ==(B) 35==
