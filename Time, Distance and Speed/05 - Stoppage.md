@@ -20,7 +20,6 @@ D) 6 hours 15 mins
   <img src="images/image 44.jpg" width="450">
 </p>
 
-
 ---
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=12|Problem 22:]]**
@@ -50,5 +49,13 @@ D) 20 mins
 B) 10
 C) 20
 D) 25
+
+- In Stoppages Type, equate Speed and Time using Ratio Proportionate method. 
+- Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
+- Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
+
+<p align="center">
+  <img src="images/image 46.jpg" width="450">
+</p>
 
 ---
