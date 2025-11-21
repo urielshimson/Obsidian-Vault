@@ -25,7 +25,7 @@ D) 6 hours 15 mins
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=12|Problem 22:]]**
 
-Excluding stoppages, the speed of a bus is 45 kmph and including stoppages, it is 36 kmph. How many minutes does the train stop per hour?
+**Excluding stoppages, the speed of a bus is 45 kmph and including stoppages, it is 36 kmph. How many minutes does the train stop per hour?**
 
 A) 10 mins
 ==B) 12 mins==
