@@ -6,6 +6,14 @@
 ---
 
 **🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=11|Problem 21:]]**
+
+**A train travelled at an average speed of 100 kmph, stopping for 3 minutes after every 75 kms. How long did it take to reach its destination (600 km) from the starting point?**
+
+A) 6 hours 24 mins
+==B) 6 hours 21 mins==
+C) 6 hours 18 mins
+D) 6 hours 15 mins
+
 - Exclude the final stopping point, because the train does not wait for the 3‑minute interval after reaching its destination.
 
 <p align="center">
