@@ -11,7 +11,7 @@
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
 
-**⚡Formula**
+**⚡ Formula**
 
 <p align="center">
   <img src="images/image 47.jpg" width="600">
@@ -45,6 +45,8 @@ A) 10 mins
 C) 15 mins
 D) 20 mins
 
+**Method 1:**
+
 - In Stoppages Type, equate Speed and Time using Ratio Proportionate method. 
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
@@ -53,9 +55,16 @@ D) 20 mins
   <img src="images/image 45.jpg" width="450">
 </p>
 
+**Method 2:**
+
+<p align="center">
+  <img src="images/image 48.jpg" width="450">
+</p>
+
+
 ---
 
-🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=13|Problem 23:]]
+**🎯 [[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=13|Problem 23:]]**
 
 **Without stoppages, a train travels a certain distance with an average speed of 80 kmph, and with stoppages, it covers the same distance at 60 kmph. What is the time in minutes per hour for which the train stops?**
 
@@ -64,12 +73,19 @@ B) 10
 C) 20
 D) 25
 
+**Method 1:**
+
 - In Stoppages Type, equate Speed and Time using Ratio Proportionate method. 
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
 
 <p align="center">
   <img src="images/image 46.jpg" width="450">
+</p>
+
+**Method 2:**
+<p align="center">
+  <img src="images/image 49.jpg" width="450">
 </p>
 
 ---
