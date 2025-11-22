@@ -11,7 +11,7 @@
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
 
-**Formula**
+**⚡Formula**
 
 <p align="center">
   <img src="images/image 47.jpg" width="600">
