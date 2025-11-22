@@ -7,7 +7,8 @@
 
 **🎯[[Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf#page=7|Problem 18:]]**
 - P and Q travel at the same speed because they cover the same distance in an equal amount of time.
-- P starts early at 6 a.m. and travels alone for 2 hours. At 8 a.m., Q starts from the opposite direction. From 8 a.m. onwards, P and Q move towards each other for 1 hour until they meet at 9 a.m.
+- P starts early at 6 a.m. and travels alone for 2 hours. At 8 a.m., Q starts from the opposite direction.
+- From 8 a.m. onwards, P and Q move towards each other for 1 hour until they meet at 9 a.m.
 
 ---
 
