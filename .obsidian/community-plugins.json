@@ -1,9 +1,9 @@
 [
-  "obsidian-excalidraw-plugin",
   "pdf-plus",
   "obsidian-style-settings",
   "better-export-pdf",
   "obsidian-markdown-export-plugin",
   "quickadd",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-excalidraw-plugin"
 ]
