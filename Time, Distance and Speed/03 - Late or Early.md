@@ -50,12 +50,11 @@ B) 5/4 km
 C) 6/5​ km
 D) 3/4 km
 
-• In both the Initial case (Late) and the Final case (Early), the walking Distance will be the same.
+In both the Initial case (Late) and the Final case (Early), the walking Distance will be the same.
 
-**Time difference**
+**⏱️ Time difference**
 - Miss keyword → Use + sign.
 - Early/Before Keyword → Use - sign.
-
 
 <p align="center">
   <img src="images/image 55.jpg" width="600">
