@@ -1,5 +1,9 @@
 
-**📘 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|01 - SET-1 (TDS problems) Part 1, p.13]]**
+---
+
+**📄 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|01 - SET-1 (TDS problems) Part 1, p.13]]**
+
+---
 
 **📌 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 1:]]**
 - Average Speed formula that works only when the Distances are the same but the Speeds are different. (For cases when traveling from points A→B and from B→A).
