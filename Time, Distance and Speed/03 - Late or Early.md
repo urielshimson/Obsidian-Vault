@@ -19,10 +19,10 @@ C) 25 mins
 ==D) 20 mins==
 
 - In a fraction, the denominator represents the original Speed or Time, and the numerator represents the reduced/increased Speed or Time.
-- Speed decreases by 1.
-- So, Time increases by 1.
-- Time has increased by 1. So, he missed the bus by 5 min.
-- The numbers in the box above are not real values, but rather part values of real values.
+
+<p align="center">
+  <img src="images/image 53.jpg" width="600">
+</p>
 
 ---
 
@@ -34,6 +34,10 @@ A) 25 mins
 B) 26 mins
 ==C) 24 mins==
 D) 28 mins
+
+<p align="center">
+  <img src="images/image 54.jpg" width="300">
+</p>
 
 ---
 
@@ -47,11 +51,14 @@ C) 6/5​ km
 D) 3/4 km
 
 - In both the Initial case (Late) and the Final case (Early), the walking Distance will be the same.
-- Real values.
-- Part values.
-- Time difference.
+
+Time difference.
 - Miss keyword → Use + sign.
 - Early/Before Keyword → Use - sign.
+
+<p align="center">
+  <img src="images/image 55.jpg" width="600">
+</p>
 
 ---
 
@@ -64,7 +71,8 @@ A) 48 kmph
 C) 43 kmph
 D) 44 kmph
 
-
-If he travels for 120 minutes, he misses the bus by 40 minutes. So, Punctual Time = 120 - 40 = 80 mins.
+<p align="center">
+  <img src="images/image 56.jpg" width="600">
+</p>
 
 ---
