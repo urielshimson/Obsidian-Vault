@@ -10,7 +10,7 @@
 - Here x and y denote two different Speeds.
 
 <p align="center">
-  <img src="images/image 1.jpg" width="300">
+  <img src="images/image 1.jpg" width="350">
 </p>
 
 **📌 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 2:]]**
