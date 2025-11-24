@@ -25,6 +25,33 @@
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=14|Problem 11:]]**
 
+**The speed of a car is 90 kmph in the first hour and 60 kmph in the second hour. What is the average speed of the car?**
+
+A) 72
+B) 75
+C) 30
+D) 80
+
+---
+
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=15|Problem 12:]]**
 
+**A biker rides from Pondicherry to Chennai at 40 kmph and returns from Chennai to Pondy at 60 kmph. Find the average speed of the whole journey.**
+
+A) 50
+B) 100
+C) 48
+D) 60
+
+---
+
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=16|Problem 13:]]**
+
+**One-fourth of a certain journey is traveled at 5 kmph and the remaining distance at 10 kmph. What is the average speed of the whole journey in kmph?**
+
+A) 7.5
+B) 8
+C) 15
+D) NOTA
+
+---
