@@ -13,7 +13,6 @@
   <img src="images/image 1.jpg" width="300">
 </p>
 
-
 **📌 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 2:]]**
 - Average Speed formula that works for all cases.
 - When solving Average Speed type problems using this formula, always start the sum from the denominator by placing each Time value in the denominator, and then place the corresponding Distance value for each Time value in the numerator.
@@ -26,10 +25,6 @@
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=14|Problem 11:]]**
 
-
-
-**🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=14|Problem 11:]]**
+**🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=15|Problem 12:]]**
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=16|Problem 13:]]**
-
-![[image 4.png]]

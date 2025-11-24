@@ -6,7 +6,7 @@
       {
         "id": "09aaa7e021629882",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 50,
         "children": [
           {
             "id": "548429f408a5a37f",
@@ -16,9 +16,9 @@
               "state": {
                 "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
                 "page": 14,
-                "left": -39,
-                "top": 197,
-                "zoom": 0.4014699514025886
+                "left": -25,
+                "top": 591,
+                "zoom": 0.6261126882548236
               },
               "icon": "lucide-file-text",
               "title": "01 - SET-1 (TDS problems) Part 1"
@@ -29,7 +29,7 @@
       {
         "id": "74faf26843944492",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 50,
         "children": [
           {
             "id": "d84715a84a1e1576",
@@ -38,32 +38,11 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/02 - Average Speed.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "02 - Average Speed"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f0a70b069b921c78",
-        "type": "tabs",
-        "dimension": 33.33333333333333,
-        "children": [
-          {
-            "id": "eff98f6a112b67e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time, Distance and Speed/03 - Late or Early.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 - Late or Early"
             }
           }
         ]
@@ -222,11 +201,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "548429f408a5a37f",
+  "active": "d84715a84a1e1576",
   "lastOpenFiles": [
-    "Time, Distance and Speed/03 - Late or Early.md",
-    "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/images/image 2.jpg",
+    "Time, Distance and Speed/images/image 1.jpg",
+    "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/images/image 56.jpg.~tmp",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
@@ -242,10 +223,8 @@
     "Excalidraw/14teen.jpg",
     "Excalidraw/14_1.jpg",
     "Excalidraw/Drawing 2025-11-23 20.56.02.excalidraw.md",
-    "Excalidraw/14_0.jpg",
     "Excalidraw/Drawing 2025-11-23 20.49.34.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 20.55.01.excalidraw.md",
-    "Excalidraw/14.jpg",
     "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/06 - Race Type.md",
     "Time, Distance and Speed/07 - Race & Circular Motion.md",
