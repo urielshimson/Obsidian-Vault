@@ -4,6 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "63eb0231fa5c91a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68cb11306b478505",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "01 - SET-1 (TDS problems) Part 1"
+            }
+          }
+        ]
+      },
+      {
         "id": "9cdbe6b071b7501c",
         "type": "tabs",
         "children": [
@@ -11,39 +31,30 @@
             "id": "e1f6611046c9f914",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
-                "page": 9,
-                "left": -31,
-                "top": 590,
-                "zoom": 0.48807919934561894
-              },
-              "icon": "lucide-file-text",
-              "title": "07 - SET-4 (Trains Advanced)"
-            }
-          }
-        ]
-      },
-      {
-        "id": "770d3e681a63896f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f228c937ec8fc1cd",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/01 - Basics.md",
+                "file": "Time, Distance and Speed/02 - Average Speed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Basics"
+              "title": "02 - Average Speed"
+            }
+          },
+          {
+            "id": "23b6a112debf7283",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,25 +209,26 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f228c937ec8fc1cd",
+  "active": "23b6a112debf7283",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
-    "Time, Distance and Speed/05 - Stoppage.md",
-    "Time, Distance and Speed/10 - Trains - Two Stations.md",
-    "Time, Distance and Speed/11 - Trains - Formula Type.md",
+    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
     "Time, Distance and Speed/14 - Boats and Streams.md",
+    "Time, Distance and Speed/00 - Summary.md",
+    "Time, Distance and Speed/05 - Stoppage.md",
+    "Time, Distance and Speed/10 - Trains - Two Stations.md",
+    "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/06 - Race Type.md",
     "Time, Distance and Speed/07 - Race & Circular Motion.md",
     "Time, Distance and Speed/08 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/09 - Train - Passing Moving Objects or Persons.md",
-    "Time, Distance and Speed/01 - Basics.md",
-    "Time, Distance and Speed/02 - Average Speed.md",
-    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/pdfs/08 - TRAIN-1-SOLVING.pdf",
-    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
     "Time, Distance and Speed/images/image 56.jpg",
     "Excalidraw/Drawing 2025-11-23 20.49.34.excalidraw.md",
@@ -242,7 +254,6 @@
     "Time, Distance and Speed/images/Drawing 2025-11-19 22.50.57.excalidraw.md",
     "Excalidraw",
     "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion OCR.pdf",
-    "Race Type.md",
     "Time, Distance and Speed - Shortcut.lnk",
     "Time, Distance and Speed/images/image 40.jpg.~tmp"
   ]
