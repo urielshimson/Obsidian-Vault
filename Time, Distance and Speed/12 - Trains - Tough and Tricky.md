@@ -1,3 +1,10 @@
+
+---
+
+[[Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf#page=9|07 - SET-4 (Trains Advanced), p.9]]
+
+---
+
 **Page 65:**
 Finally, both the motorcyclist and the cyclist would be at 1 P.M. before you find their meeting time (1 A.M.).
 
