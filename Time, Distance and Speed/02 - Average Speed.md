@@ -5,7 +5,10 @@
 
 ---
 
-Average Speed Questions **are often** given in parts like different Speeds/Distances/Times for each part, and we must calculate each part separately.
+**⭐ Basic Concepts**
+
+📌Average Speed Question Pattern
+- Average Speed Questions **are often** given in parts like different Speeds/Distances/Times for each part, and we must calculate each part separately.
 
 **⚡[[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 1:]]**
 - Average Speed formula that works only when the Distances are the same but the Speeds are different. (For cases when traveling from points A→B and from B→A).
