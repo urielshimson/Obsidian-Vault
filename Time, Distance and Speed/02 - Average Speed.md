@@ -32,7 +32,7 @@ B) 75
 C) 30
 D) 80
 
-The question explicitly specifies the time duration of each part of the journey along with its corresponding speed values, which gives us the total time of the journey.
+The question explicitly specifies the time duration of each part of the journey and its respective speed values, giving us the total time of the journey.
 
 ---
 
