@@ -7,7 +7,7 @@
 
 Average Speed Questions **are often** given in parts like different Speeds/Distances/Times for each part, and we must calculate each part separately.
 
-**📌 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 1:]]**
+**⚡[[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 1:]]**
 - Average Speed formula that works only when the Distances are the same but the Speeds are different. (For cases when traveling from points A→B and from B→A).
 - Here x and y denote two different Speeds.
 
@@ -15,7 +15,7 @@ Average Speed Questions **are often** given in parts like different Speeds/Dista
   <img src="images/image 1.jpg" width="350">
 </p>
 
-**📌 [[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 2:]]**
+**⚡[[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 2:]]**
 - Average Speed formula that works for all cases.
 - When solving Average Speed type problems using this formula, always start the sum from the denominator by placing each Time value in the denominator, and then place the corresponding Distance value for each Time value in the numerator.
 
