@@ -183,7 +183,7 @@
 - If the question has the keyword "Same/Equal/Identical", start the sum by equating the corresponding quantities.
 
 <p align="center">
-  <img src="image-40.jpg" width="250">
+  <img src="image 40.jpg" width="250">
 </p>
 
 ---

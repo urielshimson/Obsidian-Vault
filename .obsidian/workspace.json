@@ -176,48 +176,18 @@
       "publish:Publish changes...": false
     }
   },
-  "floating": {
-    "id": "94eab9491626a2ef",
-    "type": "floating",
-    "children": [
-      {
-        "id": "44abe5f11fd9d206",
-        "type": "window",
-        "children": [
-          {
-            "id": "851f32bc29f64843",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9ae15bd95c33d4e3",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2025-11-24 12.41.53.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 32,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "c30fc6fa80e25677",
   "lastOpenFiles": [
+    "Time, Distance and Speed/08 - Train - Passing Stationary Objects or Persons.md",
+    "Time, Distance and Speed/07 - Race & Circular Motion.md",
+    "Time, Distance and Speed/06 - Race Type.md",
+    "Time, Distance and Speed/05 - Stoppage.md",
+    "Time, Distance and Speed/04 - Meeting or Chasing.md",
+    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/01 - Basics.md",
+    "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/images/image 56.jpg",
-    "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 20.49.34.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 21.03.21.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 20.56.02.excalidraw.md",
@@ -232,12 +202,6 @@
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/10 - Trains - Two Stations.md",
     "Time, Distance and Speed/09 - Train - Passing Moving Objects or Persons.md",
-    "Time, Distance and Speed/08 - Train - Passing Stationary Objects or Persons.md",
-    "Time, Distance and Speed/07 - Race & Circular Motion.md",
-    "Time, Distance and Speed/06 - Race Type.md",
-    "Time, Distance and Speed/05 - Stoppage.md",
-    "Time, Distance and Speed/04 - Meeting or Chasing.md",
-    "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/images/image 2.jpg",
     "Time, Distance and Speed/images/image 1.jpg",
     "Time, Distance and Speed/images/image 56.jpg.~tmp",
@@ -249,7 +213,6 @@
     "Excalidraw/16.jpg",
     "Excalidraw/17.jpg",
     "Excalidraw/14teen.jpg",
-    "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/images/image 47.jpg.~tmp",
     "03 - SET-1 Race & Circular Motion-flat.pdf.md",
     "Time, Distance and Speed/images/Drawing 2025-11-19 22.50.57.excalidraw.md",
