@@ -1,4 +1,10 @@
 
+---
+
+
+
+---
+
 **Page 56:**
 Two Stations type: Two trains approach from two different stations, usually from opposite directions, and eventually meet.
 
