@@ -32,6 +32,8 @@ B) 75
 C) 30
 D) 80
 
+The question explicitly specifies the time duration of each part of the journey along with its corresponding speed values, which gives us the total time of the journey.
+
 ---
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=15|Problem 12:]]**
