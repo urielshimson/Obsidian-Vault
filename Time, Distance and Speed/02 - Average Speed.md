@@ -7,7 +7,7 @@
 
 **⭐ Basic Concepts**
 
-📌Average Speed Question Pattern
+📌 [[Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Question Pattern]]
 - Average Speed Questions **are often** given in parts like different Speeds/Distances/Times for each part, and we must calculate each part separately.
 
 **⚡[[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 1:]]**
