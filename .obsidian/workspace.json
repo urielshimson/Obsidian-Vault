@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "85233a9ef0eb2322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "930eaa1557ee4925",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+                "page": 15,
+                "left": -31,
+                "top": 535,
+                "zoom": 0.488079199345619
+              },
+              "icon": "lucide-file-text",
+              "title": "01 - SET-1 (TDS problems) Part 1"
+            }
+          }
+        ]
+      },
+      {
         "id": "32648199ea414607",
         "type": "tabs",
         "children": [
@@ -14,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/02 - Average Speed.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -178,12 +200,12 @@
   },
   "active": "c30fc6fa80e25677",
   "lastOpenFiles": [
-    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
-    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Time, Distance and Speed/03 - Late or Early.md",
+    "Time, Distance and Speed/02 - Average Speed.md",
+    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/01 - Basics.md",
-    "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/08 - Train - Passing Stationary Objects or Persons.md",
     "Time, Distance and Speed/07 - Race & Circular Motion.md",
     "Time, Distance and Speed/06 - Race Type.md",

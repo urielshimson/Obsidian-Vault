@@ -33,11 +33,11 @@
 **The speed of a car is 90 kmph in the first hour and 60 kmph in the second hour. What is the average speed of the car?**
 
 A) 72
-B) 75
+==B) 75==
 C) 30
 D) 80
 
-The question explicitly specifies the time duration and speed for each part of the journey, so we can simply add those time values to get the total time value.
+- The question explicitly specifies the time duration and speed for each part of the journey, so we can simply add those time values to get the total time value.
 
 ---
 
@@ -47,7 +47,7 @@ The question explicitly specifies the time duration and speed for each part of t
 
 A) 50
 B) 100
-C) 48
+==C) 48==
 D) 60
 
 ---
@@ -57,7 +57,7 @@ D) 60
 **One-fourth of a certain journey is traveled at 5 kmph and the remaining distance at 10 kmph. What is the average speed of the whole journey in kmph?**
 
 A) 7.5
-B) 8
+==B) 8==
 C) 15
 D) NOTA
 
