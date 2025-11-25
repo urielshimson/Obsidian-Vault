@@ -4,6 +4,22 @@
     "type": "split",
     "children": [
       {
+        "id": "458d374fc01ecd78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4434e300a0a78cfe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
         "id": "487fb2635ac89812",
         "type": "tabs",
         "children": [
@@ -11,16 +27,14 @@
             "id": "a8e2c08e2b669bbd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
-                "page": 2,
-                "left": -15,
-                "top": 237,
-                "zoom": 1.0239739209931193
+                "file": "Time, Distance and Speed/11 - Trains - Formula Type.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "07 - SET-4 (Trains Advanced)"
+              "icon": "lucide-file",
+              "title": "11 - Trains - Formula Type"
             }
           }
         ]
@@ -178,13 +192,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a8e2c08e2b669bbd",
+  "active": "4434e300a0a78cfe",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
     "Time, Distance and Speed/14 - Boats and Streams.md",
-    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/pdfs/08 - TRAIN-1-SOLVING.pdf",
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
