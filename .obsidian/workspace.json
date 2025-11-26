@@ -15,7 +15,7 @@
               "state": {
                 "file": "Time, Distance and Speed/00 - Summary.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "00 - Summary"
