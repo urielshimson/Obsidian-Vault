@@ -1,7 +1,7 @@
 
 ---
 
-**📄[[05 - SET-2 (Trains Basics).pdf#page=1|05 - SET-2 (Trains Basics), p.1]]**
+**📄 [[05 - SET-2 (Trains Basics).pdf#page=1|05 - SET-2 (Trains Basics), p.1]]**
 
 ---
 

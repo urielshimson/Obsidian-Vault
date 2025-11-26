@@ -1,7 +1,7 @@
 
 ---
 
-**📄[[03 - SET-1 Race & Circular Motion OCR.pdf#page=1|03 - SET-1 Race & Circular Motion OCR, p.1]]**
+**📄 [[03 - SET-1 Race & Circular Motion OCR.pdf#page=1|03 - SET-1 Race & Circular Motion OCR, p.1]]**
 
 ---
 

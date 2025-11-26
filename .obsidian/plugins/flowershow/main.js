@@ -229,7 +229,7 @@ var require_react_development = __commonJS({
         this.refs = emptyObject;
         this.updater = updater || ReactNoopUpdateQueue;
       }
-      function noop5() {
+      function noop6() {
       }
       function testStringCoercion(value) {
         return "" + value;
@@ -424,7 +424,7 @@ var require_react_development = __commonJS({
           case "rejected":
             throw thenable.reason;
           default:
-            switch ("string" === typeof thenable.status ? thenable.then(noop5, noop5) : (thenable.status = "pending", thenable.then(
+            switch ("string" === typeof thenable.status ? thenable.then(noop6, noop6) : (thenable.status = "pending", thenable.then(
               function(fulfilledValue) {
                 "pending" === thenable.status && (thenable.status = "fulfilled", thenable.value = fulfilledValue);
               },
@@ -1071,7 +1071,7 @@ var require_react_development = __commonJS({
         try {
           var returnValue = scope(), onStartTransitionFinish = ReactSharedInternals.S;
           null !== onStartTransitionFinish && onStartTransitionFinish(currentTransition, returnValue);
-          "object" === typeof returnValue && null !== returnValue && "function" === typeof returnValue.then && (ReactSharedInternals.asyncTransitions++, returnValue.then(releaseAsyncTransition, releaseAsyncTransition), returnValue.then(noop5, reportGlobalError));
+          "object" === typeof returnValue && null !== returnValue && "function" === typeof returnValue.then && (ReactSharedInternals.asyncTransitions++, returnValue.then(releaseAsyncTransition, releaseAsyncTransition), returnValue.then(noop6, reportGlobalError));
         } catch (error) {
           reportGlobalError(error);
         } finally {
@@ -1466,7 +1466,7 @@ var require_react_dom_development = __commonJS({
   "node_modules/react-dom/cjs/react-dom.development.js"(exports) {
     "use strict";
     (function() {
-      function noop5() {
+      function noop6() {
       }
       function testStringCoercion(value) {
         return "" + value;
@@ -1513,19 +1513,19 @@ var require_react_dom_development = __commonJS({
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
       var React63 = require_react(), Internals = {
         d: {
-          f: noop5,
+          f: noop6,
           r: function() {
             throw Error(
               "Invalid form element. requestFormReset must be passed a form that was rendered by React."
             );
           },
-          D: noop5,
-          C: noop5,
-          L: noop5,
-          m: noop5,
-          X: noop5,
-          S: noop5,
-          M: noop5
+          D: noop6,
+          C: noop6,
+          L: noop6,
+          m: noop6,
+          X: noop6,
+          S: noop6,
+          M: noop6
         },
         p: 0,
         findDOMNode: null
@@ -1784,7 +1784,7 @@ var require_react_dom_client_development = __commonJS({
           "Context can only be read while React is rendering. In classes, you can read it in the render method or getDerivedStateFromProps. In function components, you can read it directly in the function body, but not inside Hooks like useReducer() or useMemo()."
         );
       }
-      function noop5() {
+      function noop6() {
       }
       function warnForMissingKey() {
       }
@@ -8213,7 +8213,7 @@ var require_react_dom_client_development = __commonJS({
           queue,
           pendingState,
           NotPendingTransition,
-          null === action ? noop5 : function() {
+          null === action ? noop6 : function() {
             requestFormReset$1(formFiber);
             return action(formData);
           }
@@ -23909,7 +23909,7 @@ var import_fast_content_type_parse = __toESM(require_fast_content_type_parse(), 
 // node_modules/@octokit/request-error/dist-src/index.js
 var RequestError = class extends Error {
   constructor(message, statusCode, options) {
-    super(message);
+    super(message, { cause: options.cause });
     __publicField(this, "name");
     /**
      * http status code
@@ -23946,7 +23946,7 @@ var RequestError = class extends Error {
 };
 
 // node_modules/@octokit/request/dist-bundle/index.js
-var VERSION2 = "10.0.6";
+var VERSION2 = "10.0.7";
 var defaults_default = {
   headers: {
     "user-agent": `octokit-request.js/${VERSION2} ${getUserAgent()}`
@@ -23963,6 +23963,7 @@ function isPlainObject2(value) {
   const Ctor = Object.prototype.hasOwnProperty.call(proto2, "constructor") && proto2.constructor;
   return typeof Ctor === "function" && Ctor instanceof Ctor && Function.prototype.call(Ctor) === Function.prototype.call(value);
 }
+var noop = () => "";
 function fetchWrapper(requestOptions) {
   return __async(this, null, function* () {
     var _a, _b, _c, _d, _e;
@@ -24066,7 +24067,7 @@ function getResponseData(response) {
     var _a;
     const contentType = response.headers.get("content-type");
     if (!contentType) {
-      return response.text().catch(() => "");
+      return response.text().catch(noop);
     }
     const mimetype = (0, import_fast_content_type_parse.safeParse)(contentType);
     if (isJSONResponse(mimetype)) {
@@ -24078,9 +24079,12 @@ function getResponseData(response) {
         return text;
       }
     } else if (mimetype.type.startsWith("text/") || ((_a = mimetype.parameters.charset) == null ? void 0 : _a.toLowerCase()) === "utf-8") {
-      return response.text().catch(() => "");
+      return response.text().catch(noop);
     } else {
-      return response.arrayBuffer().catch(() => new ArrayBuffer(0));
+      return response.arrayBuffer().catch(
+        /* v8 ignore next -- @preserve */
+        () => new ArrayBuffer(0)
+      );
     }
   });
 }
@@ -24286,16 +24290,16 @@ var createTokenAuth = function createTokenAuth2(token2) {
 var VERSION4 = "7.0.6";
 
 // node_modules/@octokit/core/dist-src/index.js
-var noop = () => {
+var noop2 = () => {
 };
 var consoleWarn = console.warn.bind(console);
 var consoleError = console.error.bind(console);
 function createLogger(logger = {}) {
   if (typeof logger.debug !== "function") {
-    logger.debug = noop;
+    logger.debug = noop2;
   }
   if (typeof logger.info !== "function") {
-    logger.info = noop;
+    logger.info = noop2;
   }
   if (typeof logger.warn !== "function") {
     logger.warn = consoleWarn;
@@ -27144,42 +27148,124 @@ var Publisher = class {
   /** ---------- Public API ---------- */
   testConnection() {
     return __async(this, null, function* () {
-      var _a, _b, _c, _d, _e;
+      var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l;
       if (!validateSettings(this.settings)) {
         return {
           success: false,
           message: "Please fill in all GitHub settings (username, repository, token, branch)."
         };
       }
-      const owner = this.settings.githubUserName;
-      const repo = this.settings.githubRepo;
+      const owner = this.settings.githubUserName.trim();
+      const repo = this.settings.githubRepo.trim();
       const branch = ((_a = this.settings.branch) == null ? void 0 : _a.trim()) || "main";
+      const token2 = (_c = (_b = this.settings.githubToken) == null ? void 0 : _b.trim()) != null ? _c : "";
+      const tokenType = getTokenType(token2);
       try {
+        if (tokenType === "classic") {
+          try {
+            const userResp = yield this.octokit.request("GET /user");
+            const scopesHeader = userResp.headers["x-oauth-scopes"];
+            const scopes = typeof scopesHeader === "string" ? scopesHeader.split(",").map((s) => s.trim()).filter(Boolean) : [];
+            if (!scopes.includes("repo")) {
+              return {
+                success: false,
+                message: "Connected, but your personal access token (classic) is missing the 'repo' scope. Edit the token on GitHub and enable the full 'repo' scope (or create a new token)."
+              };
+            }
+          } catch (scopeError) {
+            console.warn("Warning: Could not verify classic token scopes:", scopeError);
+          }
+        }
         const { data: repoData } = yield this.octokit.repos.get({ owner, repo });
-        const canPush = ((_b = repoData.permissions) == null ? void 0 : _b.push) || ((_c = repoData.permissions) == null ? void 0 : _c.admin) || ((_d = repoData.permissions) == null ? void 0 : _d.maintain);
-        if (!canPush) {
+        const canPushByRole = ((_d = repoData.permissions) == null ? void 0 : _d.push) || ((_e = repoData.permissions) == null ? void 0 : _e.admin) || ((_f = repoData.permissions) == null ? void 0 : _f.maintain);
+        if (!canPushByRole) {
           return {
             success: false,
-            message: "Connected, but you don't have write access to this repository."
+            message: "Connected, but your GitHub account only has read access to this repository. You need write (push) access on the repo itself to publish."
           };
         }
         yield this.octokit.repos.getBranch({ owner, repo, branch });
+        if (tokenType === "fine-grained") {
+          const writeCheck = yield checkFineGrainedWriteAccess(
+            this.octokit,
+            owner,
+            repo
+          );
+          if (!writeCheck.ok) {
+            return {
+              success: false,
+              message: (_g = writeCheck.message) != null ? _g : "Fine-grained token lacks write access."
+            };
+          }
+        }
+        try {
+          yield this.octokit.rest.pulls.list({
+            owner,
+            repo,
+            state: "open",
+            per_page: 1
+          });
+        } catch (prError) {
+          const status = prError == null ? void 0 : prError.status;
+          const acceptedPerms = (_i = (_h = prError == null ? void 0 : prError.response) == null ? void 0 : _h.headers) == null ? void 0 : _i["x-accepted-github-permissions"];
+          if (status === 403) {
+            if (acceptedPerms) {
+              return {
+                success: false,
+                message: `Connected to the repository, but your token cannot access pull requests.
+
+GitHub reports these required permissions: ${acceptedPerms}
+
+` + (tokenType === "fine-grained" ? "For fine-grained tokens, make sure it has at least:\n- Repository: Contents (Read and write)\n- Repository: Metadata (Read)\n- Repository: Pull requests (Read and write)\n" : "For classic tokens, ensure the token includes the 'repo' scope (which covers pull requests).")
+              };
+            }
+            return {
+              success: false,
+              message: "Connected, but unable to access pull requests (403).\n" + (tokenType === "fine-grained" ? "For fine-grained tokens, enable 'Contents' and 'Pull requests' permissions for this repo." : "For classic tokens, ensure the token includes the 'repo' scope.")
+            };
+          }
+          console.warn("Warning: Could not verify pull request permissions:", prError);
+        }
+        const tokenInfo = tokenType === "classic" ? "Classic token detected." : tokenType === "fine-grained" ? "Fine-grained token detected." : "Token type could not be determined (non-standard prefix).";
         return {
           success: true,
-          message: `Connected. Repo "${owner}/${repo}" and branch "${branch}" are accessible with write permission.`
+          message: "Connected to the repo with required permissions."
         };
       } catch (error) {
         const status = error == null ? void 0 : error.status;
-        if (status === 404)
-          return { success: false, message: "Repository or branch not found." };
-        if (status === 401)
-          return { success: false, message: "Authentication failed. Check your token." };
-        if (status === 403)
+        const acceptedPerms = (_k = (_j = error == null ? void 0 : error.response) == null ? void 0 : _j.headers) == null ? void 0 : _k["x-accepted-github-permissions"];
+        if (status === 404) {
           return {
             success: false,
-            message: "Access denied (403). Check repository permissions or token scopes (need 'repo')."
+            message: `Repository or branch not found. Make sure "${owner}/${repo}" exists and the branch "${branch}" is correct.`
           };
-        return { success: false, message: `Connection failed: ${(_e = error == null ? void 0 : error.message) != null ? _e : error}` };
+        }
+        if (status === 401) {
+          return {
+            success: false,
+            message: "Authentication failed (401). Check your personal access token and make sure it is valid."
+          };
+        }
+        if (status === 403) {
+          if (acceptedPerms) {
+            return {
+              success: false,
+              message: `Access denied (403). Your token or account is missing required permissions.
+
+GitHub reports these required permissions: ${acceptedPerms}
+
+` + (tokenType === "fine-grained" ? "For fine-grained tokens, adjust the token to include the listed repository permissions for this repo." : "For classic tokens, ensure it has the 'repo' scope and access to this repository.")
+            };
+          }
+          return {
+            success: false,
+            message: "Access denied (403). Check repository permissions and token scopes.\n" + (tokenType === "fine-grained" ? "For fine-grained tokens, make sure the repository is selected and that it has Contents (Read and write) and Pull requests permissions." : "For classic tokens, ensure the token includes the 'repo' scope.")
+          };
+        }
+        return {
+          success: false,
+          message: `Connection failed: ${(_l = error == null ? void 0 : error.message) != null ? _l : String(error)}`
+        };
       }
     });
   }
@@ -27655,6 +27741,47 @@ ${filesToDelete.map((p) => `- ${this.normalizePath(p)}`).join("\n")}` : ""
     });
   }
 };
+function getTokenType(token2) {
+  if (!token2)
+    return "unknown";
+  const t = token2.trim();
+  if (t.startsWith("github_pat_"))
+    return "fine-grained";
+  if (t.startsWith("ghp_"))
+    return "classic";
+  return "unknown";
+}
+function checkFineGrainedWriteAccess(octokit, owner, repo) {
+  return __async(this, null, function* () {
+    var _a, _b;
+    try {
+      yield octokit.git.createBlob({
+        owner,
+        repo,
+        content: "flowershow-permission-check",
+        encoding: "utf-8"
+      });
+      return { ok: true };
+    } catch (error) {
+      const status = error == null ? void 0 : error.status;
+      const acceptedPerms = (_b = (_a = error == null ? void 0 : error.response) == null ? void 0 : _a.headers) == null ? void 0 : _b["x-accepted-github-permissions"];
+      if (status === 401 || status === 403) {
+        let message = "Connected to the repository, but your fine-grained token does not have write access to repository contents.";
+        if (acceptedPerms) {
+          message += "\n\nGitHub reports these required permissions: " + acceptedPerms + "\n\nWhen editing the token, make sure it has at least:\n- Repository: Contents (Read and write)\n- Repository: Metadata (Read)\n";
+        } else {
+          message += "\n\nFor fine-grained tokens, ensure that:\n- This repository is selected in the token settings, and\n- 'Contents' is set to 'Read and write'.";
+        }
+        return { ok: false, message };
+      }
+      console.warn(
+        "Warning: Could not conclusively verify write access for fine-grained token:",
+        error
+      );
+      return { ok: true };
+    }
+  });
+}
 
 // src/PublishStatusBar.ts
 var PublishStatusBar = class {
@@ -28333,7 +28460,7 @@ function useOnMount(fn) {
 }
 
 // node_modules/@mui/x-internals/esm/store/useStoreEffect.js
-var noop2 = () => {
+var noop3 = () => {
 };
 function useStoreEffect(store, selector, effect) {
   const instance = useLazyRef(initialize, {
@@ -28350,7 +28477,7 @@ function initialize(params) {
   } = params;
   let previousState = selector(store.state);
   const instance = {
-    effect: noop2,
+    effect: noop3,
     dispose: null,
     // We want a single subscription done right away and cleared on unmount only,
     // but React triggers `useOnMount` multiple times in dev, so we need to manage
@@ -35292,7 +35419,7 @@ Transition.propTypes = true ? {
    */
   onExited: import_prop_types10.default.func
 } : {};
-function noop3() {
+function noop4() {
 }
 Transition.defaultProps = {
   in: false,
@@ -35301,12 +35428,12 @@ Transition.defaultProps = {
   appear: false,
   enter: true,
   exit: true,
-  onEnter: noop3,
-  onEntering: noop3,
-  onEntered: noop3,
-  onExit: noop3,
-  onExiting: noop3,
-  onExited: noop3
+  onEnter: noop4,
+  onEntering: noop4,
+  onEntered: noop4,
+  onExit: noop4,
+  onExiting: noop4,
+  onExited: noop4
 };
 Transition.UNMOUNTED = UNMOUNTED;
 Transition.EXITED = EXITED;
@@ -38874,9 +39001,9 @@ var useAssertModelConsistency = false ? () => {
 // node_modules/@base-ui-components/utils/esm/useIsoLayoutEffect.js
 var React46 = __toESM(require_react(), 1);
 "use client";
-var noop4 = () => {
+var noop5 = () => {
 };
-var useIsoLayoutEffect = typeof document !== "undefined" ? React46.useLayoutEffect : noop4;
+var useIsoLayoutEffect = typeof document !== "undefined" ? React46.useLayoutEffect : noop5;
 
 // node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewExpansion/useTreeViewExpansion.selectors.js
 var expandedItemMapSelector = createSelectorMemoized((state) => state.expansion.expandedItems, (expandedItems) => {
@@ -39418,7 +39545,7 @@ var propagateSelection = ({
   return shouldRegenerateModel ? Object.keys(newModelLookup) : newModel;
 };
 
-// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewSelection/useTreeViewSelection.itemPlugin.js
+// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewSelection/itemPlugin.js
 var selectorCheckboxSelectionStatus = createSelector2((state, itemId) => {
   if (selectionSelectors.isItemSelected(state, itemId)) {
     return "checked";
@@ -39935,7 +40062,7 @@ var hasPlugin = (instance, plugin) => {
   return plugins.has(plugin);
 };
 
-// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewLabel/useTreeViewLabel.itemPlugin.js
+// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewLabel/itemPlugin.js
 var React49 = __toESM(require_react(), 1);
 
 // node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewLabel/useTreeViewLabel.selectors.js
@@ -39971,7 +40098,7 @@ var labelSelectors = {
   })
 };
 
-// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewLabel/useTreeViewLabel.itemPlugin.js
+// node_modules/@mui/x-tree-view/esm/internals/plugins/useTreeViewLabel/itemPlugin.js
 "use client";
 var useTreeViewLabelItemPlugin = ({
   props
@@ -42780,7 +42907,7 @@ true ? RichTreeView.propTypes = {
     })
   }),
   /**
-   * If `true`, the Tree View renders a checkbox at the left of its label that allows selecting it.
+   * Whether the Tree View renders a checkbox at the left of its label that allows selecting it.
    * @default false
    */
   checkboxSelection: import_prop_types26.default.bool,
@@ -42802,12 +42929,12 @@ true ? RichTreeView.propTypes = {
    */
   defaultSelectedItems: import_prop_types26.default.any,
   /**
-   * If `true`, will allow focus on disabled items.
+   * Whether the items should be focusable when disabled.
    * @default false
    */
   disabledItemsFocusable: import_prop_types26.default.bool,
   /**
-   * If `true` selection is disabled.
+   * Whether selection is disabled.
    * @default false
    */
   disableSelection: import_prop_types26.default.bool,
@@ -42835,7 +42962,7 @@ true ? RichTreeView.propTypes = {
    *
    * @template R
    * @param {R} item The item to check.
-   * @returns {string} The id of the item.
+   * @returns {TreeViewItemId} The id of the item.
    * @default (item) => item.id
    */
   getItemId: import_prop_types26.default.func,
@@ -42876,33 +43003,33 @@ true ? RichTreeView.propTypes = {
   itemChildrenIndentation: import_prop_types26.default.oneOfType([import_prop_types26.default.number, import_prop_types26.default.string]),
   items: import_prop_types26.default.array.isRequired,
   /**
-   * If `true`, `ctrl` and `shift` will trigger multiselect.
+   * Whether multiple items can be selected.
    * @default false
    */
   multiSelect: import_prop_types26.default.bool,
   /**
    * Callback fired when Tree Items are expanded/collapsed.
    * @param {React.SyntheticEvent} event The DOM event that triggered the change. Can be null when the change is caused by the `publicAPI.setItemExpansion()` method.
-   * @param {array} itemIds The ids of the expanded items.
+   * @param {TreeViewItemId[]} itemIds The ids of the expanded items.
    */
   onExpandedItemsChange: import_prop_types26.default.func,
   /**
    * Callback fired when the `content` slot of a given Tree Item is clicked.
    * @param {React.MouseEvent} event The DOM event that triggered the change.
-   * @param {string} itemId The id of the focused item.
+   * @param {TreeViewItemId} itemId The id of the focused item.
    */
   onItemClick: import_prop_types26.default.func,
   /**
    * Callback fired when a Tree Item is expanded or collapsed.
    * @param {React.SyntheticEvent | null} event The DOM event that triggered the change. Can be null when the change is caused by the `publicAPI.setItemExpansion()` method.
-   * @param {array} itemId The itemId of the modified item.
+   * @param {TreeViewItemId} itemId The itemId of the modified item.
    * @param {boolean} isExpanded `true` if the item has just been expanded, `false` if it has just been collapsed.
    */
   onItemExpansionToggle: import_prop_types26.default.func,
   /**
    * Callback fired when a given Tree Item is focused.
    * @param {React.SyntheticEvent | null} event The DOM event that triggered the change. **Warning**: This is a generic event not a focus event.
-   * @param {string} itemId The id of the focused item.
+   * @param {TreeViewItemId} itemId The id of the focused item.
    */
   onItemFocus: import_prop_types26.default.func,
   /**
@@ -42914,14 +43041,14 @@ true ? RichTreeView.propTypes = {
   /**
    * Callback fired when a Tree Item is selected or deselected.
    * @param {React.SyntheticEvent} event The DOM event that triggered the change. Can be null when the change is caused by the `publicAPI.setItemSelection()` method.
-   * @param {array} itemId The itemId of the modified item.
+   * @param {TreeViewItemId} itemId The itemId of the modified item.
    * @param {boolean} isSelected `true` if the item has just been selected, `false` if it has just been deselected.
    */
   onItemSelectionToggle: import_prop_types26.default.func,
   /**
    * Callback fired when Tree Items are selected/deselected.
    * @param {React.SyntheticEvent} event The DOM event that triggered the change. Can be null when the change is caused by the `publicAPI.setItemSelection()` method.
-   * @param {string[] | string} itemIds The ids of the selected items.
+   * @param {TreeViewItemId[] | TreeViewItemId} itemIds The ids of the selected items.
    * When `multiSelect` is `true`, this is an array of strings; when false (default) a string.
    */
   onSelectedItemsChange: import_prop_types26.default.func,
@@ -43460,11 +43587,18 @@ var SettingView = class {
   initializeGitHubTokenSetting() {
     const desc = document.createDocumentFragment();
     desc.createEl("span", void 0, (span) => {
-      span.innerText = "GitHub personal access token with repository permissions. You can generate one ";
+      span.appendText("GitHub personal access token with repository permissions. You can generate one ");
       span.createEl("a", void 0, (link) => {
         link.href = "https://github.com/settings/tokens/new?scopes=repo";
         link.innerText = "here!";
       });
+      span.createEl("br");
+      span.createEl("br");
+      span.createEl("strong", { text: "Required scopes:" });
+      span.createEl("br");
+      span.appendText("\u2022 Classic PAT: repo scope");
+      span.createEl("br");
+      span.appendText("\u2022 Fine-grained PAT: Contents and Pull Requests (both with read and write)");
     });
     new import_obsidian3.Setting(this.settingsRootElement).setName("Personal Access Token").setDesc(desc).addText((text) => text.setPlaceholder("Secret Token").setValue(this.settings.githubToken).onChange((value) => __async(this, null, function* () {
       this.settings.githubToken = value;
@@ -43480,7 +43614,7 @@ var SettingView = class {
         if (result.success) {
           new import_obsidian3.Notice("\u2705 " + result.message, 4e3);
         } else {
-          new import_obsidian3.Notice("\u274C " + result.message, 4e3);
+          new import_obsidian3.Notice("\u274C " + result.message, 1e4);
         }
       } catch (error) {
         new import_obsidian3.Notice("\u274C Failed to test connection", 4e3);
@@ -43820,6 +43954,13 @@ react/cjs/react-jsx-runtime.development.js:
    * This source code is licensed under the MIT license found in the
    * LICENSE file in the root directory of this source tree.
    *)
+
+@octokit/request-error/dist-src/index.js:
+  (* v8 ignore else -- @preserve -- Bug with vitest coverage where it sees an else branch that doesn't exist *)
+
+@octokit/request/dist-bundle/index.js:
+  (* v8 ignore next -- @preserve *)
+  (* v8 ignore else -- @preserve *)
 
 @mui/styled-engine/esm/index.js:
   (**
