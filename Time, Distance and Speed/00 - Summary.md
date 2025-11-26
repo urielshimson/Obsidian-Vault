@@ -1,10 +1,5 @@
----
-title: "Summary"
-description: "Quick summary notes for Time, Distance and Speed"
-draft: false
----
 
-### 1. Basics
+1. Basics
 
 📌 **1) Formula**
 - Speed = Distance / Time
