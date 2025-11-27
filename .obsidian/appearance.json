@@ -3,6 +3,7 @@
   "enabledCssSnippets": [
     "no-page-break",
     "questions",
-    "Sudarshan-Image"
+    "Sudarshan-Image",
+    "Sudarshan-Auto-Center-Image"
   ]
 }
