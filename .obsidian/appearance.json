@@ -2,6 +2,7 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "no-page-break",
-    "questions"
+    "questions",
+    "Sudarshan-Image"
   ]
 }
