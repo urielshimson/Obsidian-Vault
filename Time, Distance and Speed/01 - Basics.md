@@ -40,9 +40,18 @@
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
 Solution:
+
+
 <div style="text-align:center;">
-  <img src="/Time, Distance and Speed/images/image_31.JPG" width="300">
+  <img
+    src="images/image_31.jpg"
+    width="300"
+    alt="solution image"
+    onerror="this.onerror=null;this.src='/Time%2C%20Distance%20and%20Speed/images/image_31.jpg';"
+  >
 </div>
+
+
 
 
 
