@@ -40,9 +40,10 @@
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
 Solution:
-<p align="center">
-  <img src="./images/image 31.jpg" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/image 31.jpg" width="300">
+</div>
+
 
 
 ---
