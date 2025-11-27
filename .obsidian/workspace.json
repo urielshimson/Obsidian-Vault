@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/01 - Basics.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -157,8 +157,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "b367cae03bab2f55",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -170,24 +184,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "publish:Publish changes...": false,
-      "flowershow:Publish with Flowershow": false
+      "bases:Create new base": false
     }
   },
   "active": "6de2a09624bff17f",
   "lastOpenFiles": [
+    "public/index.md",
     "public/custom.css",
     "public/styles/custom.css",
     "public/styles/New Text Document.txt",
@@ -198,7 +206,6 @@
     "public/styles",
     "styles/custom.scss",
     "styles/New Text Document.txt",
-    "styles",
     "conflict-files-obsidian-git.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/02 - Average Speed.md",
