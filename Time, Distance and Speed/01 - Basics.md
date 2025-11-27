@@ -46,6 +46,12 @@ Solution:
 
 <center>![[images/image_31.jpg|300]]</center>
 
+<div align="center">![[images/image_31.jpg|300]]</div>
+
+
+<div align="center">![[images/image_31.JPG|300]]</div>
+
+
 
 
 
