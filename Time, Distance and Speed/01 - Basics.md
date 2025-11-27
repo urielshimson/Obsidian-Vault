@@ -41,6 +41,13 @@
 
 Solution:
 
+<div style="text-align:center;">
+  ![[images/image_31.JPG|300]]
+</div>
+
+
+
+
 ![[images/image_31.jpg|300]]
 
 
