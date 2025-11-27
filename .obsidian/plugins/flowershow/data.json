@@ -1,0 +1,11 @@
+{
+  "githubRepo": "Obsidian-Vault",
+  "githubToken": "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",
+  "githubUserName": "urielshimson",
+  "branch": "main",
+  "autoMergePullRequests": true,
+  "mergeCommitMessage": "Merge content updates",
+  "excludePatterns": [
+    ".excalidraw(.(md|excalidraw))?$"
+  ]
+}
