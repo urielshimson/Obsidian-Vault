@@ -41,7 +41,7 @@
 
 Solution:
 <div style="text-align: center;">
-  <img src="./images/image 31.jpg" width="300">
+  <img src="./images/image_31.jpg" width="300">
 </div>
 
 
