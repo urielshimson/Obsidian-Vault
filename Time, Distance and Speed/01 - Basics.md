@@ -41,6 +41,8 @@
 
 Solution:
 
+![[images/image_31.jpg|300]]
+
 
 <center>![[images/image_31.jpg|300]]</center>
 
