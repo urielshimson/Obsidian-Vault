@@ -41,6 +41,11 @@
 
 ![[images/image31.jpg|300]]
 
+<div style="text-align: center;">
+  <img src="images/image31.jpg" width="300" alt="Solution image">
+</div>
+
+
 ---
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=3|Problem 2:]]**
