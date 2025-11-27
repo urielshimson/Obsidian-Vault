@@ -39,17 +39,11 @@
 
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
-Solution:
+
+![[images/image31.jpg#center|300]]
 
 
-<div style="text-align:center;">
-  <img
-    src="images/image_31.jpg"
-    width="300"
-    alt="solution image"
-    onerror="this.onerror=null;this.src='/Time%2C%20Distance%20and%20Speed/images/image_31.jpg';"
-  >
-</div>
+
 
 
 
@@ -76,7 +70,7 @@ Solution:
 
 ---
 
-**🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=5|Problem 3:]]**
+**🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=5#center|Problem 3:]]**
 
 **Speed of train is 90 kmph. What is the distance (D = ?) covered by it in 10 minutes?**
 
