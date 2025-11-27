@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/14 - Boats and Streams.md",
+                "file": "Time, Distance and Speed/01 - Basics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "14 - Boats and Streams"
+              "title": "01 - Basics"
             }
           }
         ]
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,6 +189,8 @@
   },
   "active": "5d79cafc4d9fe007",
   "lastOpenFiles": [
+    "Important Calculation Methods/Notes.md",
+    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/index.md",
     "index.md",
     "Time, Distance and Speed/03 - Late or Early.md",
@@ -205,7 +208,6 @@
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
-    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/pdfs/08 - TRAIN-1-SOLVING.pdf",
     "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
@@ -229,7 +231,6 @@
     "Excalidraw/17.jpg",
     "Excalidraw/14teen.jpg",
     "Time, Distance and Speed/images/image 47.jpg.~tmp",
-    "03 - SET-1 Race & Circular Motion-flat.pdf.md",
     "Excalidraw",
     "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion OCR.pdf",
     "Time, Distance and Speed - Shortcut.lnk",
