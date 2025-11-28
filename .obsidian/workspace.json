@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Time, Distance and Speed/01 - Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "01 - Basics"
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "f626f7b87fac44e9",
   "lastOpenFiles": [
+    "Time, Distance and Speed/index.md",
+    "index.md",
     "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
@@ -206,8 +208,6 @@
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/00 - Summary.md",
-    "Time, Distance and Speed/index.md",
-    "index.md",
     "force.txt",
     "flowershow-rebuild.txt",
     "public/styles.css",

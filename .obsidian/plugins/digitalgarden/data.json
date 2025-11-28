@@ -2,7 +2,7 @@
   "githubRepo": "digitalgarden",
   "githubToken": "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",
   "githubUserName": "urielshimson",
-  "gardenBaseUrl": "https://urielshimson.github.io/study-notes",
+  "gardenBaseUrl": "",
   "prHistory": [],
   "baseTheme": "dark",
   "theme": "{\"name\":\"Red Graphite\",\"author\":\"SeanWcom\",\"repo\":\"seanwcom/Red-Graphite-for-Obsidian\",\"screenshot\":\"thumbnail.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/HEAD/theme.css\"}",
