@@ -2,7 +2,6 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "no-page-break",
-    "questions",
-    "center-images"
+    "questions"
   ]
 }
