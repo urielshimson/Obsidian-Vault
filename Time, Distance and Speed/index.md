@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Time, Distance and Speed
 
 - [[00 - Summary]]

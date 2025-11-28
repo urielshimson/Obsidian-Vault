@@ -1,3 +1,7 @@
+---
+dg-home: true
+dg-publish: true
+---
 # Quant Notes
 
 Welcome! Choose a topic:

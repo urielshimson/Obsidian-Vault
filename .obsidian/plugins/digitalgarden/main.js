@@ -10774,6 +10774,8 @@ var CODE_FENCE_REGEX = /`(.*?)`/g;
 var CODEBLOCK_REGEX = /```.*?[\r\n][\s\S]+?```/g;
 var EXCALIDRAW_REGEX = /:\[\[(\d*?,\d*?)\],.*?\]\]/g;
 var TRANSCLUDED_SVG_REGEX = /!\[\[(.*?)(\.(svg))\|(.*?)\]\]|!\[\[(.*?)(\.(svg))\]\]/g;
+var PDF_REGEX = /!\[(.*?)\]\((.*?)(\.pdf)\)/g;
+var TRANSCLUDED_PDF_REGEX = /!\[\[(.*?)(\.pdf)\|(.*?)\]\]|!\[\[(.*?)(\.pdf)\]\]/g;
 
 // src/compiler/GardenPageCompiler.ts
 var import_js_logger2 = __toESM(require_logger());
@@ -17175,6 +17177,9 @@ function replaceBlockIDs(markdown) {
 }
 
 // src/compiler/GardenPageCompiler.ts
+var PDF_MAX_SIZE_BYTES = 20 * 1024 * 1024;
+var PDF_IFRAME_HEIGHT = "900px";
+var PDF_IFRAME_STYLE = "border:1px solid #ccc;";
 var GardenPageCompiler = class {
   constructor(vault, settings, metadataCache, getFilesMarkedForPublishing) {
     this.runCompilerSteps = (file, compilerSteps) => (text2) => __async(null, null, function* () {
@@ -17577,7 +17582,7 @@ ${headerSection}
       }
       return assets;
     });
-    this.convertImageLinks = (file) => (text2) => __async(this, null, function* () {
+    this.convertEmbeddedAssets = (file) => (text2) => __async(this, null, function* () {
       const filePath = file.getPath();
       const assets = [];
       let imageText = text2;
@@ -17676,14 +17681,182 @@ ${headerSection}
             const image = yield this.vault.readBinary(linkedFile);
             const imageBase64 = (0, import_obsidian3.arrayBufferToBase64)(image);
             const cmsImgPath = `/img/user/${linkedFile.path}`;
-            const imageMarkdown = `![${imageName}](${cmsImgPath})`;
+            const imageMarkdown = `![${imageName}](${encodeURI(
+              cmsImgPath
+            )})`;
             assets.push({ path: cmsImgPath, content: imageBase64 });
             imageText = imageText.replace(
               imageMatch,
               imageMarkdown
             );
           } catch (e) {
+            import_js_logger2.default.warn("Error processing image link:", e);
             continue;
+          }
+        }
+      }
+      const generatePdfIframe = (src, title) => {
+        return `<iframe src="${encodeURI(
+          src
+        )}" width="100%" height="${PDF_IFRAME_HEIGHT}" title="${title}" style="${PDF_IFRAME_STYLE}"></iframe>`;
+      };
+      const buildWikilinkFallback = (name, metadataParts, displayText) => {
+        const display = displayText ? `|${displayText}` : metadataParts.length > 0 ? "|" + metadataParts.join("|") : "";
+        return `[[${name}${display}]]`;
+      };
+      const transcludedPdfMatches = text2.match(TRANSCLUDED_PDF_REGEX);
+      if (transcludedPdfMatches) {
+        for (const pdfMatch of transcludedPdfMatches) {
+          try {
+            const [pdfNameFromFile, ...metadataParts] = pdfMatch.substring(
+              pdfMatch.indexOf("[") + 2,
+              pdfMatch.indexOf("]")
+            ).split("|");
+            const altText = metadataParts.join("|") || pdfNameFromFile;
+            const pdfPath = (0, import_obsidian3.getLinkpath)(pdfNameFromFile);
+            if (pdfPath === "") {
+              imageText = imageText.replace(
+                pdfMatch,
+                buildWikilinkFallback(
+                  pdfNameFromFile,
+                  metadataParts
+                )
+              );
+              continue;
+            }
+            const linkedFile = this.metadataCache.getFirstLinkpathDest(
+              pdfPath,
+              filePath
+            );
+            if (!linkedFile || linkedFile.extension !== "pdf") {
+              imageText = imageText.replace(
+                pdfMatch,
+                buildWikilinkFallback(
+                  pdfNameFromFile,
+                  metadataParts
+                )
+              );
+              continue;
+            }
+            if (linkedFile.stat.size > PDF_MAX_SIZE_BYTES) {
+              new import_obsidian3.Notice(
+                `PDF ${linkedFile.name} is larger than 20MB and will not be published as an embed. A link will be used.`
+              );
+              imageText = imageText.replace(
+                pdfMatch,
+                buildWikilinkFallback(
+                  pdfNameFromFile,
+                  metadataParts,
+                  "PDF too large to embed"
+                )
+              );
+              continue;
+            }
+            const pdfBinary = yield this.vault.readBinary(linkedFile);
+            const pdfBase64 = (0, import_obsidian3.arrayBufferToBase64)(pdfBinary);
+            const cmsPdfPath = `/img/user/${linkedFile.path}`;
+            assets.push({ path: cmsPdfPath, content: pdfBase64 });
+            imageText = imageText.replace(
+              pdfMatch,
+              generatePdfIframe(cmsPdfPath, altText)
+            );
+          } catch (e) {
+            import_js_logger2.default.warn(
+              "Error processing transcluded PDF link:",
+              e
+            );
+            const [pdfNameFromFile, ...metadataParts] = pdfMatch.substring(
+              pdfMatch.indexOf("[") + 2,
+              pdfMatch.indexOf("]")
+            ).split("|");
+            imageText = imageText.replace(
+              pdfMatch,
+              buildWikilinkFallback(
+                pdfNameFromFile,
+                metadataParts
+              )
+            );
+          }
+        }
+      }
+      const pdfMatches = text2.match(PDF_REGEX);
+      if (pdfMatches) {
+        for (const pdfMatch of pdfMatches) {
+          try {
+            const nameStart = pdfMatch.indexOf("[") + 1;
+            const nameEnd = pdfMatch.indexOf("]");
+            const pdfName = pdfMatch.substring(nameStart, nameEnd);
+            const pathStart = pdfMatch.lastIndexOf("(") + 1;
+            const pathEnd = pdfMatch.lastIndexOf(")");
+            const pdfPath = pdfMatch.substring(pathStart, pathEnd);
+            if (pdfPath.startsWith("http")) {
+              imageText = imageText.replace(
+                pdfMatch,
+                generatePdfIframe(
+                  pdfPath,
+                  pdfName || "External PDF"
+                )
+              );
+              continue;
+            }
+            const decodedPdfPath = decodeURI(pdfPath);
+            if (decodedPdfPath === "") {
+              imageText = imageText.replace(
+                pdfMatch,
+                `[${pdfName || "Invalid PDF Link"}](${encodeURI(
+                  pdfPath
+                )})`
+              );
+              continue;
+            }
+            const linkedFile = this.metadataCache.getFirstLinkpathDest(
+              decodedPdfPath,
+              filePath
+            );
+            if (!linkedFile || linkedFile.extension !== "pdf") {
+              imageText = imageText.replace(
+                pdfMatch,
+                `[${pdfName || decodedPdfPath}](${encodeURI(
+                  pdfPath
+                )})`
+              );
+              continue;
+            }
+            if (linkedFile.stat.size > PDF_MAX_SIZE_BYTES) {
+              new import_obsidian3.Notice(
+                `PDF ${linkedFile.name} is larger than 20MB and will not be published as an embed. A link will be used.`
+              );
+              imageText = imageText.replace(
+                pdfMatch,
+                `[${pdfName || linkedFile.name} (PDF too large to embed)](${encodeURI(
+                  pdfPath
+                )})`
+              );
+              continue;
+            }
+            const pdfBinary = yield this.vault.readBinary(linkedFile);
+            const pdfBase64 = (0, import_obsidian3.arrayBufferToBase64)(pdfBinary);
+            const cmsPdfPath = `/img/user/${linkedFile.path}`;
+            assets.push({ path: cmsPdfPath, content: pdfBase64 });
+            imageText = imageText.replace(
+              pdfMatch,
+              generatePdfIframe(
+                cmsPdfPath,
+                pdfName || linkedFile.basename
+              )
+            );
+          } catch (e) {
+            import_js_logger2.default.warn("Error processing PDF link:", e);
+            const nameStart = pdfMatch.indexOf("[") + 1;
+            const nameEnd = pdfMatch.indexOf("]");
+            const pdfName = pdfMatch.substring(nameStart, nameEnd);
+            const pathStart = pdfMatch.lastIndexOf("(") + 1;
+            const pathEnd = pdfMatch.lastIndexOf(")");
+            const pdfPath = pdfMatch.substring(pathStart, pathEnd);
+            imageText = imageText.replace(
+              pdfMatch,
+              `[${pdfName || "PDF"}](${encodeURI(pdfPath)})`
+            );
           }
         }
       }
@@ -17722,7 +17895,7 @@ ${headerSection}
         file,
         COMPILE_STEPS
       )(vaultFileText);
-      const [text2, images] = yield this.convertImageLinks(file)(compiledText);
+      const [text2, images] = yield this.convertEmbeddedAssets(file)(compiledText);
       return [text2, { images }];
     });
   }
