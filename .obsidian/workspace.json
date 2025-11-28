@@ -183,8 +183,7 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "publish:Publish changes...": false,
-      "flowershow:Publish with Flowershow": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "flowershow:Publish with Flowershow": false
     }
   },
   "active": "6ef421c16a6885f1",
