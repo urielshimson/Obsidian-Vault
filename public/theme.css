@@ -1,3 +1,6 @@
 :root {
   --theme: "night";
 }
+
+/* DEBUG */
+body { outline: 8px solid magenta !important; }
