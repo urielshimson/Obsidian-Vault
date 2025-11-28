@@ -4,43 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dc982dd473d638e0",
+        "id": "ebbd5afdefe6b626",
         "type": "tabs",
         "children": [
           {
-            "id": "14935d1444d7faae",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
-                "page": 12,
-                "left": -44,
-                "top": 8,
-                "zoom": 0.3545566087667805
-              },
-              "icon": "lucide-file-text",
-              "title": "01 - SET-1 (TDS problems) Part 1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7e552e2483bf8b67",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6ef421c16a6885f1",
+            "id": "f626f7b87fac44e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/14 - Boats and Streams.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Boats and Streams"
+              "title": "index"
             }
           }
         ]
@@ -188,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,8 +188,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "6ef421c16a6885f1",
+  "active": "f626f7b87fac44e9",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
+    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
@@ -225,7 +206,6 @@
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/00 - Summary.md",
-    "Time, Distance and Speed/pdfs/01 - SET-1 (TDS problems) Part 1.pdf",
     "Time, Distance and Speed/index.md",
     "index.md",
     "force.txt",
@@ -238,7 +218,6 @@
     "dummy/index.md",
     "Important Calculation Methods/Notes.md",
     "Important Calculation Methods/Painting.jpg",
-    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/pdfs/08 - TRAIN-1-SOLVING.pdf",
     "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",

@@ -1,6 +1,6 @@
 {
-  "githubRepo": "study-notes",
-  "githubToken": "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",
+  "githubRepo": "digitalgarden",
+  "githubToken": "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",
   "githubUserName": "urielshimson",
   "gardenBaseUrl": "https://urielshimson.github.io/study-notes",
   "prHistory": [],
@@ -27,7 +27,7 @@
   "styleSettingsBodyClasses": "theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app styled-scrollbars show-inline-title show-ribbon show-view-header is-maximized pdf-plus-click-embed-to-open-link pdf-plus-backlink-selection-highlight css-settings-manager hide-pdf-embed-toolbar hide-pdf-toolbar-in-hover-editor is-focused",
   "pathRewriteRules": "",
   "customFilters": [],
-  "publishPlatform": "ForestryMd",
+  "publishPlatform": "SelfHosted",
   "contentClassesKey": "dg-content-classes",
   "forestrySettings": {
     "forestryPageName": "study-notes",
