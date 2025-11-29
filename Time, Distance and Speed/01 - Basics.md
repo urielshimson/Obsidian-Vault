@@ -50,9 +50,6 @@ dg-publish: true
 
 **🎯 [[01 - SET-1 (TDS problems) Part 1.pdf#page=3|Problem 2:]]**
 
-[Problem 2](01 - SET-1 (TDS problems) Part 1.pdf#page=3)
-
-
 **Express 25 meters per second in kilometers per hour.**
 
 (A) 15
