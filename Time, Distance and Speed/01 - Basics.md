@@ -42,9 +42,7 @@ dg-publish: true
 
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 
-<div style="text-align:center;">
-  <img src="images/image31.jpg" width="300" alt="Solution image" />
-</div>
+![[images/image 31.jpg|300]]
 
 ---
 
