@@ -17,9 +17,7 @@ dg-publish: true
 - Average Speed formula that works only when the Distances are the same but the Speeds are different. (For cases when traveling from points A→B and from B→A).
 - Here x and y denote two different Speeds.
 
-<p align="center">
-  <img src="images/image 1.jpg" width="350">
-</p>
+![[images/image 1.jpg|350]]
 
 **⚡[[01 - SET-1 (TDS problems) Part 1.pdf#page=13|Average Speed Formula 2:]]**
 - Average Speed formula that works for all cases.
