@@ -30123,9 +30123,139 @@ var SettingView = class {
       const themeModal = new import_obsidian14.Modal(this.app);
       themeModal.containerEl.addClass("dg-settings");
       themeModal.titleEl.createEl("h1", { text: "Appearance Settings" });
+      const controls = {
+        baseTheme: null,
+        siteName: null,
+        mainLanguage: null,
+        useFullResolutionImages: null,
+        timestampFormat: null,
+        showCreatedTimestamp: null,
+        showUpdatedTimestamp: null,
+        defaultNoteIcon: null,
+        showNoteIconOnTitle: null,
+        showNoteIconInFileTree: null,
+        showNoteIconOnInternalLink: null,
+        showNoteIconOnBackLink: null
+      };
+      const statusEl = themeModal.contentEl.createDiv({
+        cls: "dg-appearance-status"
+      });
+      const settingsMap = [
+        {
+          envKey: "BASE_THEME",
+          controlKey: "baseTheme",
+          settingsKey: "baseTheme",
+          isBoolean: false
+        },
+        {
+          envKey: "SITE_NAME_HEADER",
+          controlKey: "siteName",
+          settingsKey: "siteName",
+          isBoolean: false
+        },
+        {
+          envKey: "SITE_MAIN_LANGUAGE",
+          controlKey: "mainLanguage",
+          settingsKey: "mainLanguage",
+          isBoolean: false
+        },
+        {
+          envKey: "USE_FULL_RESOLUTION_IMAGES",
+          controlKey: "useFullResolutionImages",
+          settingsKey: "useFullResolutionImages",
+          isBoolean: true
+        },
+        {
+          envKey: "TIMESTAMP_FORMAT",
+          controlKey: "timestampFormat",
+          settingsKey: "timestampFormat",
+          isBoolean: false
+        },
+        {
+          envKey: "SHOW_CREATED_TIMESTAMP",
+          controlKey: "showCreatedTimestamp",
+          settingsKey: "showCreatedTimestamp",
+          isBoolean: true
+        },
+        {
+          envKey: "SHOW_UPDATED_TIMESTAMP",
+          controlKey: "showUpdatedTimestamp",
+          settingsKey: "showUpdatedTimestamp",
+          isBoolean: true
+        },
+        {
+          envKey: "NOTE_ICON_DEFAULT",
+          controlKey: "defaultNoteIcon",
+          settingsKey: "defaultNoteIcon",
+          isBoolean: false
+        },
+        {
+          envKey: "NOTE_ICON_TITLE",
+          controlKey: "showNoteIconOnTitle",
+          settingsKey: "showNoteIconOnTitle",
+          isBoolean: true
+        },
+        {
+          envKey: "NOTE_ICON_FILETREE",
+          controlKey: "showNoteIconInFileTree",
+          settingsKey: "showNoteIconInFileTree",
+          isBoolean: true
+        },
+        {
+          envKey: "NOTE_ICON_INTERNAL_LINKS",
+          controlKey: "showNoteIconOnInternalLink",
+          settingsKey: "showNoteIconOnInternalLink",
+          isBoolean: true
+        },
+        {
+          envKey: "NOTE_ICON_BACK_LINKS",
+          controlKey: "showNoteIconOnBackLink",
+          settingsKey: "showNoteIconOnBackLink",
+          isBoolean: true
+        }
+      ];
+      const loadRemoteSettings = () => __async(this, null, function* () {
+        statusEl.setText("Loading settings from site...");
+        try {
+          const gardenManager = new DigitalGardenSiteManager(
+            this.app.metadataCache,
+            this.settings
+          );
+          const connection = yield gardenManager.getUserGardenConnection();
+          const envFile = yield connection.getFile(".env");
+          if (envFile == null ? void 0 : envFile.content) {
+            const envContent = gBase64.decode(envFile.content);
+            const remoteSettings = this.parseEnvSettings(envContent);
+            for (const mapping of settingsMap) {
+              const control = controls[mapping.controlKey];
+              if (mapping.envKey in remoteSettings && control) {
+                const rawValue = remoteSettings[mapping.envKey];
+                const value = mapping.isBoolean ? rawValue === "true" : rawValue;
+                control.setValue(value);
+                this.settings[mapping.settingsKey] = value;
+              }
+            }
+            statusEl.setText("Settings loaded from site");
+            setTimeout(() => {
+              statusEl.setText("");
+            }, 2e3);
+          }
+        } catch (error) {
+          console.error(
+            "Failed to load remote appearance settings:",
+            error
+          );
+          statusEl.setText("Could not load settings from site");
+          statusEl.addClass("is-error");
+          setTimeout(() => {
+            statusEl.setText("");
+            statusEl.removeClass("is-error");
+          }, 3e3);
+        }
+      });
       const handleSaveSettingsButton = (cb) => {
         cb.setButtonText("Apply settings to site");
-        cb.setClass("mod-cta");
+        cb.setCta();
         cb.onClick((_ev) => __async(this, null, function* () {
           const octokit = new Octokit({
             auth: this.settings.githubToken
@@ -30139,6 +30269,7 @@ var SettingView = class {
         cb.setButtonText("Manage appearance");
         cb.onClick(() => __async(this, null, function* () {
           themeModal.open();
+          yield loadRemoteSettings();
         }));
       });
       try {
@@ -30147,12 +30278,15 @@ var SettingView = class {
           this.app.plugins && // @ts-expect-error see above
           this.app.plugins.plugins["obsidian-style-settings"]._loaded
         ) {
-          themeModal.contentEl.createEl("h2", { text: "Style Settings Plugin" }).prepend(this.getIcon("paintbrush"));
-          new import_obsidian14.Setting(themeModal.contentEl).setName("Apply current style settings to site").setDesc(
+          const styleSettingsSection = themeModal.contentEl.createDiv({
+            cls: "dg-settings-section"
+          });
+          styleSettingsSection.createEl("h3", { text: "Style Settings Plugin" }).prepend(this.getIcon("paintbrush"));
+          new import_obsidian14.Setting(styleSettingsSection).setName("Apply current style settings to site").setDesc(
             "Click the apply button to use the current style settings from the Style Settings Plugin on your site. (The plugin looks at the currently APPLIED settings. Meaning you need to have the theme you are using in the garden selected in Obsidian before applying)"
           ).addButton((btn) => {
             btn.setButtonText("Apply Style Settings");
-            btn.setClass("mod-cta");
+            btn.setCta();
             btn.onClick((_ev) => __async(this, null, function* () {
               var _a2;
               new import_obsidian14.Notice("Applying Style Settings...");
@@ -30198,28 +30332,101 @@ var SettingView = class {
       } catch (e) {
         console.error("Error loading style settings plugin");
       }
-      themeModal.contentEl.createEl("h2", { text: "Theme Settings" }).prepend(this.getIcon("palette"));
-      const themesListResponse = yield axios_default.get(OBSIDIAN_THEME_URL);
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Theme").addDropdown((dd) => {
-        dd.addOption('{"name": "default", "modes": ["dark"]}', "Default");
-        const sortedThemes = themesListResponse.data.sort(
-          (a, b) => a.name.localeCompare(b.name)
-        );
-        sortedThemes.map((x) => {
-          dd.addOption(
-            JSON.stringify(__spreadProps(__spreadValues({}, x), {
-              cssUrl: `https://raw.githubusercontent.com/${x.repo}/${x.branch || "HEAD"}/${x.legacy ? "obsidian.css" : "theme.css"}`
-            })),
-            x.name
-          );
-          dd.setValue(this.settings.theme);
-          dd.onChange((val) => __async(this, null, function* () {
-            this.settings.theme = val;
-            yield this.saveSettings();
-          }));
-        });
+      const themeSection = themeModal.contentEl.createDiv({
+        cls: "dg-settings-section"
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Base theme").addDropdown((dd) => {
+      themeSection.createEl("h3", { text: "Theme Settings" }).prepend(this.getIcon("palette"));
+      const themesListResponse = yield axios_default.get(OBSIDIAN_THEME_URL);
+      const sortedThemes = themesListResponse.data.sort(
+        (a, b) => a.name.localeCompare(b.name)
+      );
+      const themePickerContainer = themeSection.createDiv({
+        cls: "dg-theme-picker-container"
+      });
+      const currentThemeDisplay = themePickerContainer.createDiv({
+        cls: "dg-current-theme"
+      });
+      const updateCurrentThemeDisplay = () => {
+        const currentTheme = JSON.parse(this.settings.theme);
+        currentThemeDisplay.empty();
+        currentThemeDisplay.createEl("span", { text: "Current theme: " });
+        currentThemeDisplay.createEl("strong", { text: currentTheme.name });
+      };
+      updateCurrentThemeDisplay();
+      const searchInput = themePickerContainer.createEl("input", {
+        type: "text",
+        placeholder: "Search themes...",
+        cls: "dg-theme-search"
+      });
+      const themeGrid = themePickerContainer.createDiv({
+        cls: "dg-theme-grid"
+      });
+      const createThemeCard = (theme, isDefault = false) => {
+        const themeValue = isDefault ? '{"name": "default", "modes": ["dark"]}' : JSON.stringify(__spreadProps(__spreadValues({}, theme), {
+          cssUrl: `https://raw.githubusercontent.com/${theme.repo}/${theme.branch || "HEAD"}/${theme.legacy ? "obsidian.css" : "theme.css"}`
+        }));
+        const isSelected = this.settings.theme === themeValue;
+        const card = themeGrid.createDiv({
+          cls: `dg-theme-card${isSelected ? " is-selected" : ""}`
+        });
+        const imgContainer = card.createDiv({ cls: "dg-theme-card-image" });
+        if (isDefault) {
+          imgContainer.createDiv({
+            cls: "dg-theme-card-placeholder",
+            text: "Default"
+          });
+        } else {
+          const img = imgContainer.createEl("img", {
+            attr: {
+              src: `https://raw.githubusercontent.com/${theme.repo}/${theme.branch || "HEAD"}/${theme.screenshot}`,
+              loading: "lazy"
+            }
+          });
+          img.onerror = () => {
+            img.style.display = "none";
+            imgContainer.createDiv({
+              cls: "dg-theme-card-placeholder",
+              text: "No preview"
+            });
+          };
+        }
+        card.createDiv({
+          cls: "dg-theme-card-name",
+          text: isDefault ? "Default" : theme.name
+        });
+        card.addEventListener("click", () => __async(this, null, function* () {
+          this.settings.theme = themeValue;
+          yield this.saveSettings();
+          updateCurrentThemeDisplay();
+          themeGrid.querySelectorAll(".dg-theme-card").forEach((c) => c.removeClass("is-selected"));
+          card.addClass("is-selected");
+        }));
+        return card;
+      };
+      const renderThemes = (filter2 = "") => {
+        themeGrid.empty();
+        const defaultTheme2 = {
+          name: "Default",
+          author: "",
+          screenshot: "",
+          modes: ["dark"],
+          repo: "",
+          legacy: false
+        };
+        if ("default".includes(filter2.toLowerCase())) {
+          createThemeCard(defaultTheme2, true);
+        }
+        sortedThemes.filter(
+          (t) => t.name.toLowerCase().includes(filter2.toLowerCase())
+        ).forEach((theme) => createThemeCard(theme));
+      };
+      renderThemes();
+      searchInput.addEventListener("input", (e) => {
+        const target = e.target;
+        renderThemes(target.value);
+      });
+      new import_obsidian14.Setting(themeSection).setName("Base theme").addDropdown((dd) => {
+        controls.baseTheme = dd;
         dd.addOption("dark", "Dark");
         dd.addOption("light", "Light");
         dd.setValue(this.settings.baseTheme);
@@ -30228,23 +30435,29 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Sitename").setDesc(
+      new import_obsidian14.Setting(themeSection).setName("Sitename").setDesc(
         "The name of your site. This will be displayed as the site header."
-      ).addText(
-        (text2) => text2.setValue(this.settings.siteName).onChange((value) => __async(this, null, function* () {
-          this.settings.siteName = value;
-          yield this.saveSettings();
-        }))
-      );
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Main language").setDesc(
+      ).addText((text2) => {
+        controls.siteName = text2;
+        text2.setValue(this.settings.siteName).onChange(
+          (value) => __async(this, null, function* () {
+            this.settings.siteName = value;
+            yield this.saveSettings();
+          })
+        );
+      });
+      new import_obsidian14.Setting(themeSection).setName("Main language").setDesc(
         "Language code (ISO 639-1) for the main language of your site. This is used to set the correct language on your site to assist search engines and browsers."
-      ).addText(
-        (text2) => text2.setValue(this.settings.mainLanguage).onChange((value) => __async(this, null, function* () {
-          this.settings.mainLanguage = value;
-          yield this.saveSettings();
-        }))
-      );
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Favicon").setDesc(
+      ).addText((text2) => {
+        controls.mainLanguage = text2;
+        text2.setValue(this.settings.mainLanguage).onChange(
+          (value) => __async(this, null, function* () {
+            this.settings.mainLanguage = value;
+            yield this.saveSettings();
+          })
+        );
+      });
+      new import_obsidian14.Setting(themeSection).setName("Favicon").setDesc(
         "Path to an svg in your vault you wish to use as a favicon. Leave blank to use default. Must be square! (eg. 16x16)"
       ).addText((tc) => {
         tc.setPlaceholder("myfavicon.svg");
@@ -30255,26 +30468,34 @@ var SettingView = class {
         }));
         new SvgFileSuggest(this.app, tc.inputEl);
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Use full resolution images").setDesc(
+      new import_obsidian14.Setting(themeSection).setName("Use full resolution images").setDesc(
         "By default, the images on your site are compressed to make your site load faster. If you instead want to use the full resolution images, enable this setting."
       ).addToggle((toggle) => {
+        controls.useFullResolutionImages = toggle;
         toggle.setValue(this.settings.useFullResolutionImages);
         toggle.onChange((val) => __async(this, null, function* () {
           this.settings.useFullResolutionImages = val;
           yield this.saveSettings();
         }));
       });
-      new import_obsidian14.Setting(themeModal.contentEl).addButton(handleSaveSettingsButton);
-      themeModal.contentEl.createEl("h2", { text: "Timestamps Settings" }).prepend(this.getIcon("calendar-clock"));
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Timestamp format").setDesc(
+      new import_obsidian14.Setting(themeSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      const timestampsSection = themeModal.contentEl.createDiv({
+        cls: "dg-settings-section"
+      });
+      timestampsSection.createEl("h3", { text: "Timestamps Settings" }).prepend(this.getIcon("calendar-clock"));
+      new import_obsidian14.Setting(timestampsSection).setName("Timestamp format").setDesc(
         "The format string to render timestamp on the garden. Must be luxon compatible"
-      ).addText(
-        (text2) => text2.setValue(this.settings.timestampFormat).onChange((value) => __async(this, null, function* () {
-          this.settings.timestampFormat = value;
-          yield this.saveSettings();
-        }))
-      );
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show created timestamp").addToggle((t) => {
+      ).addText((text2) => {
+        controls.timestampFormat = text2;
+        text2.setValue(this.settings.timestampFormat).onChange(
+          (value) => __async(this, null, function* () {
+            this.settings.timestampFormat = value;
+            yield this.saveSettings();
+          })
+        );
+      });
+      new import_obsidian14.Setting(timestampsSection).setName("Show created timestamp").addToggle((t) => {
+        controls.showCreatedTimestamp = t;
         t.setValue(this.settings.showCreatedTimestamp).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showCreatedTimestamp = value;
@@ -30282,7 +30503,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Created timestamp Frontmatter Key").setDesc(
+      new import_obsidian14.Setting(timestampsSection).setName("Created timestamp Frontmatter Key").setDesc(
         "Key to get the created timestamp from the frontmatter. Leave blank to get the value from file creation time. The value can be any value that luxon Datetime.fromISO can parse."
       ).addText(
         (text2) => text2.setValue(this.settings.createdTimestampKey).onChange((value) => __async(this, null, function* () {
@@ -30290,7 +30511,8 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show updated timestamp").addToggle((t) => {
+      new import_obsidian14.Setting(timestampsSection).setName("Show updated timestamp").addToggle((t) => {
+        controls.showUpdatedTimestamp = t;
         t.setValue(this.settings.showUpdatedTimestamp).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showUpdatedTimestamp = value;
@@ -30298,7 +30520,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Updated timestamp Frontmatter Key").setDesc(
+      new import_obsidian14.Setting(timestampsSection).setName("Updated timestamp Frontmatter Key").setDesc(
         "Key to get the updated timestamp from the frontmatter. Leave blank to get the value from file update time. The value can be any value that luxon Datetime.fromISO can parse."
       ).addText(
         (text2) => text2.setValue(this.settings.updatedTimestampKey).onChange((value) => __async(this, null, function* () {
@@ -30306,9 +30528,12 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian14.Setting(themeModal.contentEl).addButton(handleSaveSettingsButton);
-      themeModal.contentEl.createEl("h2", { text: "CSS settings" }).prepend(this.getIcon("code"));
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Body Classes Key").setDesc(
+      new import_obsidian14.Setting(timestampsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      const cssSection = themeModal.contentEl.createDiv({
+        cls: "dg-settings-section"
+      });
+      cssSection.createEl("h3", { text: "CSS settings" }).prepend(this.getIcon("code"));
+      new import_obsidian14.Setting(cssSection).setName("Body Classes Key").setDesc(
         "Key for setting css-classes to the note body from the frontmatter."
       ).addText(
         (text2) => text2.setValue(this.settings.contentClassesKey).onChange((value) => __async(this, null, function* () {
@@ -30316,19 +30541,23 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian14.Setting(themeModal.contentEl).addButton(handleSaveSettingsButton);
-      themeModal.contentEl.createEl("h2", { text: "Note icons Settings" }).prepend(this.getIcon("image"));
-      themeModal.contentEl.createEl("div", { attr: { style: "margin-bottom: 10px;" } }).createEl("a", {
+      new import_obsidian14.Setting(cssSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      const noteIconsSection = themeModal.contentEl.createDiv({
+        cls: "dg-settings-section"
+      });
+      noteIconsSection.createEl("h3", { text: "Note icons Settings" }).prepend(this.getIcon("image"));
+      noteIconsSection.createEl("div", { cls: "dg-docs-link" }).createEl("a", {
         text: "Documentation on note icons",
         href: "https://dg-docs.ole.dev/advanced/note-specific-settings/#note-icons"
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Note icon Frontmatter Key").setDesc("Key to get the note icon value from the frontmatter").addText(
+      new import_obsidian14.Setting(noteIconsSection).setName("Note icon Frontmatter Key").setDesc("Key to get the note icon value from the frontmatter").addText(
         (text2) => text2.setValue(this.settings.noteIconKey).onChange((value) => __async(this, null, function* () {
           this.settings.noteIconKey = value;
           yield this.saveSettings();
         }))
       );
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Default note icon Value").setDesc("The default value for note icon if not specified").addText((text2) => {
+      new import_obsidian14.Setting(noteIconsSection).setName("Default note icon Value").setDesc("The default value for note icon if not specified").addText((text2) => {
+        controls.defaultNoteIcon = text2;
         text2.setValue(this.settings.defaultNoteIcon).onChange(
           (value) => __async(this, null, function* () {
             this.settings.defaultNoteIcon = value;
@@ -30336,7 +30565,8 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show note icon on Title").addToggle((t) => {
+      new import_obsidian14.Setting(noteIconsSection).setName("Show note icon on Title").addToggle((t) => {
+        controls.showNoteIconOnTitle = t;
         t.setValue(this.settings.showNoteIconOnTitle).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showNoteIconOnTitle = value;
@@ -30344,7 +30574,8 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show note icon in FileTree").addToggle((t) => {
+      new import_obsidian14.Setting(noteIconsSection).setName("Show note icon in FileTree").addToggle((t) => {
+        controls.showNoteIconInFileTree = t;
         t.setValue(this.settings.showNoteIconInFileTree).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showNoteIconInFileTree = value;
@@ -30352,7 +30583,8 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show note icon on Internal Links").addToggle((t) => {
+      new import_obsidian14.Setting(noteIconsSection).setName("Show note icon on Internal Links").addToggle((t) => {
+        controls.showNoteIconOnInternalLink = t;
         t.setValue(this.settings.showNoteIconOnInternalLink).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showNoteIconOnInternalLink = value;
@@ -30360,7 +30592,8 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).setName("Show note icon on Backlinks").addToggle((t) => {
+      new import_obsidian14.Setting(noteIconsSection).setName("Show note icon on Backlinks").addToggle((t) => {
+        controls.showNoteIconOnBackLink = t;
         t.setValue(this.settings.showNoteIconOnBackLink).onChange(
           (value) => __async(this, null, function* () {
             this.settings.showNoteIconOnBackLink = value;
@@ -30368,7 +30601,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian14.Setting(themeModal.contentEl).addButton(handleSaveSettingsButton);
+      new import_obsidian14.Setting(noteIconsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
     });
   }
   saveSettingsAndUpdateEnv() {
