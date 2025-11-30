@@ -23,9 +23,7 @@ dg-publish: true
 - Average Speed formula that works for all cases.
 - When solving Average Speed type problems using this formula, always start the sum from the denominator by placing each Time value in the denominator, and then place the corresponding Distance value for each Time value in the numerator.
 
-<p align="center">
-  <img src="images/image 2.jpg" width="400">
-</p>
+![[images/image 2.jpg|400]]
 
 ---
 

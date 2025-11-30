@@ -13,13 +13,10 @@ dg-publish: true
 - In train problems, the length of the train should always be expressed in meters (m).
 - Mnemonic → Department of Science and Technology.
 
-<p align="center">
-  <img src="image 21.jpg" width="300">
-</p>
+![[images/image 21.jpg|300]]
 
-<p align="center">
-  <img src="image 22.jpg" width="400">
-</p>
+
+![[images/image 22.jpg|400]]
 
 ---
 
@@ -30,6 +27,7 @@ dg-publish: true
 ---
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
+
 ![[image 23.jpg|250]]
 
 ---
@@ -37,6 +35,7 @@ dg-publish: true
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=7|Problem 5:]]**
 - When a train passes a lengthy object in "X+Y" seconds, it first covers the object’s length in "x" seconds, then its own length in the remaining "y" seconds.
 - When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
+
 ![[image 24.jpg|250]]
 
 ---
@@ -54,9 +53,7 @@ dg-publish: true
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=9|Problem 7:]]**
 - If a train travels at a constant Speed and takes the same amount of Time to pass certain Distances, it means those Distances are of equal length.
 
-<p align="center">
-  <img src="image 25.jpg" width="400">
-</p>
+![[images/image 25.jpg|400]]
 
 ---
 

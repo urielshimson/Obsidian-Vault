@@ -40,7 +40,7 @@ dg-publish: true
 🎯 [[09 - Set-5 (Boats & Streams).pdf#page=4|Problem 2:]]
 - From the question here, "downstream" refers to the downstream speed.
 
-![[image 13.png|400]]
+![[image 13.jpg|400]]
 
 ---
 
@@ -56,7 +56,7 @@ dg-publish: true
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 - From the question here, "upstream" refers to the upstream speed, and "downstream" refers to the downstream speed.
 
-![[image 12.png|400]]
+![[image 12.jpg|400]]
 
 ---
 
@@ -70,7 +70,7 @@ Upstream Speed.
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=8|Problem 6:]]**
 - When two cases (upstream case and downstream case) along with their respective Time values are given in the question, start the sum with Time.
 
-![[image 5.png|500]]
+![[image 5.jpg|500]]
 
 💡 **Sample Value Substitution Method**: 
 - If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
@@ -94,7 +94,7 @@ Upstream Speed.
 - To solve equations involving the addition or subtraction of two fractions with a single unknown in either the numerators or the denominators, you can find the value of the unknown variable 's' by substituting appropriate even or odd values and checking whether the L.H.S. = R.H.S.
 - The Time taken for the boat to travel upstream will always be greater than the Time taken for the boat to travel downstream when covering the same Distance.
 
-![[image 6.png]]
+![[image 6.jpg]]
 
 ---
 
@@ -115,7 +115,7 @@ Upstream Speed.
 - When you have two fractions set equal to each other (a proportion), you can simplify the equation by canceling common factors shared by the numerators, the denominators, or a numerator and denominator on the same side of the equation (LHS or RHS).
 - When a single equation has two unknowns, you cannot fully solve it. After partially solving, the result will be in Ratios. So, attach a variable like "x" along with the Ratios.
 
-![[image 8.png]]
+![[image 8.jpg]]
 
 ---
 

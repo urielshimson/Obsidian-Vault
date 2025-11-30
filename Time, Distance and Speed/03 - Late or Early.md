@@ -23,9 +23,7 @@ C) 25 mins
 
 - In a fraction, the denominator represents the original Speed or Time, and the numerator represents the reduced/increased Speed or Time.
 
-<p align="center">
-  <img src="images/image 53.jpg" width="600">
-</p>
+![[images/image 53.jpg|600]]
 
 ---
 
@@ -38,9 +36,7 @@ B) 26 mins
 ==C) 24 mins==
 D) 28 mins
 
-<p align="center">
-  <img src="images/image 54.jpg" width="300">
-</p>
+![[images/image 54.jpg|300]]
 
 ---
 
@@ -59,9 +55,7 @@ D) 3/4 km
 - Miss keyword → Use + sign.
 - Early/Before Keyword → Use - sign.
 
-<p align="center">
-  <img src="images/image 55.jpg" width="600">
-</p>
+![[images/image 55.jpg|600]]
 
 ---
 
@@ -74,8 +68,6 @@ A) 48 kmph
 C) 43 kmph
 D) 44 kmph
 
-<p align="center">
-  <img src="images/image 56.jpg" width="600">
-</p>
+![[images/image 56.jpg|600]]
 
 ---

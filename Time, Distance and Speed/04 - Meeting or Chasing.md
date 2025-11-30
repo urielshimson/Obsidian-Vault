@@ -21,9 +21,7 @@ D) 9 PM
 - P starts early at 6 a.m. and travels alone for 2 hours. At 8 a.m., Q starts from the opposite direction.
 - From 8 a.m. onwards, P and Q move towards each other for 1 hour until they meet at 9 a.m.
 
-<p align="center">
-  <img src="images/image 50.jpg" width="500">
-</p>
+![[images/image 50.jpg|500]]
 
 
 ---
@@ -40,9 +38,7 @@ D) 9:00 AM
 - A starts early at 7 a.m. and travels alone for 1 hour. At 8 a.m., B starts from the opposite direction. 
 - From 8 a.m. onwards, A and B move towards each other for 2 hours until they meet at 10 a.m.
 
-<p align="center">
-  <img src="images/image 52.jpg" width="450">
-</p>
+![[images/image 52.jpg|450]]
 
 ---
 
@@ -61,9 +57,7 @@ D) 2 hours 50 mins
 - Meeting time from the start of the theft = 2 Hours 30 Minutes.
 - Relative Speed applies only to problems where two objects are moving towards or away from each other.
 
-<p align="center">
-  <img src="images/image 51.jpg" width="450">
-</p>
+![[images/image 51.jpg|450]]
 
 ---
 

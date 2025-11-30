@@ -46,8 +46,6 @@ dg-publish: true
 
 - The than keyword points to the base value used for comparison, so it must always be placed in the denominator.
 
-<p align="center">
-  <img src="images/image 41.jpg" width="450">
-</p>
+![[images/image 41.jpg|450]]
 
 ---

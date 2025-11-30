@@ -16,9 +16,7 @@ dg-publish: true
 
 **⚡ Formula**
 
-<p align="center">
-  <img src="images/image 47.jpg" width="600">
-</p>
+![[images/image 47.jpg|600]]
 
 ---
 
@@ -33,9 +31,7 @@ D) 6 hours 15 mins
 
 - Exclude the final stopping point, because the train does not wait for the 3‑minute interval after reaching its destination.
 
-<p align="center">
-  <img src="images/image 44.jpg" width="450">
-</p>
+![[images/image 44.jpg|450]]
 
 ---
 
@@ -54,15 +50,11 @@ D) 20 mins
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
 
-<p align="center">
-  <img src="images/image 45.jpg" width="450">
-</p>
+![[images/image 45.jpg|450]]
 
 **Method 2:**
 
-<p align="center">
-  <img src="images/image 48.jpg" width="450">
-</p>
+![[images/image 48.jpg|450]]
 
 
 ---
@@ -82,13 +74,10 @@ D) 25
 - Start the sum from the R.H.S side by creating a fraction for stoppage Time/Hour. 
 - Then, create the same proportionate fraction on the L.H.S for Speed, and solve for the missing value.
 
-<p align="center">
-  <img src="images/image 46.jpg" width="450">
-</p>
+![[images/image 46.jpg|450]]
 
 **Method 2:**
-<p align="center">
-  <img src="images/image 49.jpg" width="450">
-</p>
+
+![[images/image 49.jpg|450]]
 
 ---
