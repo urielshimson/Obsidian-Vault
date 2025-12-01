@@ -8,23 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0bccc7224b6cd1e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
-                "page": 2,
-                "left": -34,
-                "top": 5,
-                "zoom": 0.4682312466920079
-              },
-              "icon": "lucide-file-text",
-              "title": "09 - Set-5 (Boats & Streams)"
-            }
-          },
-          {
-            "id": "efe93d7c2fd06910",
+            "id": "a449a49ba40b6785",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -32,15 +16,14 @@
                 "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
                 "page": 15,
                 "left": -25,
-                "top": 509,
+                "top": 367,
                 "zoom": 0.6261126882548236
               },
               "icon": "lucide-file-text",
               "title": "07 - SET-4 (Trains Advanced)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "de8623f05b9c0da2",
@@ -228,13 +211,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "efe93d7c2fd06910",
+  "active": "a449a49ba40b6785",
   "lastOpenFiles": [
     "Time, Distance and Speed/13 - Trains - Traps.md",
+    "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/01 - Basics.md",
-    "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Important Calculation Methods/Notes.md",
     "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
     "Time, Distance and Speed/09 - Trains - Passing Moving Objects.md",
