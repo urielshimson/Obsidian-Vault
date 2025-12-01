@@ -24,6 +24,9 @@ dg-publish: true
 ---
 
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=2|Problem 1:]]**
+
+
+
 - In Relative Speed type, when two cases are given in the question, start the sum by equating the quantity (usually the passing distance 'D') that remains constant in both cases.
 - In Relative Speed type, when a train and two men pass each other, start the sum by equating the quantity (train length) that remains constant in both cases (the train passing each man separately).
 
@@ -31,14 +34,22 @@ dg-publish: true
 
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=3|Problem 2:]]**
 
+
+
 When substituting values separately into the L.H.S/R.H.S of an equation, the equation's units must be considered while solving, because the units do not cancel out with those units on the other side of the equation.
 
 ---
 
 🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=4|Problem 3:]]
+
+
+
 - When a train passes a non-lengthy object such as a man, tree, or pole, the passing distance D = the length of the train.
 - When a train passes a lengthy object such as a bridge, platform, or another train, the passing distance D = the length of the lengthy object + the length of the train.
 - When solving an equation with different units, convert all units to the specified unit in the answer.
+
+---
+
 
 ---
 

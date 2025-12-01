@@ -15,14 +15,50 @@
               "type": "pdf",
               "state": {
                 "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 6,
+                "left": -33,
+                "top": 591,
+                "zoom": 0.47093778569022754
               },
               "icon": "lucide-file-text",
               "title": "07 - SET-4 (Trains Advanced)"
             }
+          },
+          {
+            "id": "18ad72253c2c3ae5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+                "page": 2,
+                "left": -33,
+                "top": 591,
+                "zoom": 0.47093778569022754
+              },
+              "icon": "lucide-file-text",
+              "title": "06 - SET-3 (Trains Relative Speed)"
+            }
+          },
+          {
+            "id": "c10ea81ae11012cb",
+            "type": "leaf",
+            "dimension": 50,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",
+                "page": 10,
+                "left": -33,
+                "top": 572,
+                "zoom": 0.47093778569022754
+              },
+              "icon": "lucide-file-text",
+              "title": "05 - SET-2 (Trains Basics)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "76e6c8ac6717c744",
@@ -35,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/10 - Trains - Two Stations.md",
+                "file": "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Trains - Two Stations"
+              "title": "08 - Trains - Passing Stationary Objects"
             }
           }
         ]
@@ -210,26 +246,28 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "e586eecad38210a4",
+  "active": "a449a49ba40b6785",
   "lastOpenFiles": [
-    "Time, Distance and Speed/10 - Trains - Two Stations.md",
+    "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",
+    "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
     "Time, Distance and Speed/09 - Trains - Passing Moving Objects.md",
+    "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
+    "Time, Distance and Speed/10 - Trains - Two Stations.md",
+    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
+    "Time, Distance and Speed/13 - Trains - Traps.md",
+    "Time, Distance and Speed/05 - Stoppage.md",
+    "Time, Distance and Speed/06 - Race Type.md",
+    "Time, Distance and Speed/07 - Race & Circular Motion.md",
     "Time, Distance and Speed/index.md",
     "index.md",
     "08 - Train - Passing Stationary Objects.md",
     "Important Calculation Methods/Notes.md",
-    "Time, Distance and Speed/13 - Trains - Traps.md",
-    "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
     "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
     "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/01 - Basics.md",
-    "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
     "Time, Distance and Speed/02 - Average Speed.md",
-    "Time, Distance and Speed/07 - Race & Circular Motion.md",
-    "Time, Distance and Speed/06 - Race Type.md",
-    "Time, Distance and Speed/05 - Stoppage.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/00 - Summary.md",
@@ -241,8 +279,6 @@
     "flowershow-rebuild.txt",
     "public/styles.css",
     "public/theme.css",
-    "public/New Text Document.txt",
-    "public",
     "dummy/index.md",
     "Excalidraw/Drawing 2025-11-24 12.41.53.excalidraw.md",
     "Time, Distance and Speed/images/image 56.jpg",
@@ -250,7 +286,6 @@
     "Excalidraw/Drawing 2025-11-23 21.03.21.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 20.56.02.excalidraw.md",
     "Excalidraw/Drawing 2025-11-23 20.55.01.excalidraw.md",
-    "Excalidraw/Drawing 2025-11-19 23.22.38.excalidraw.md",
     "Excalidraw/14.jpg",
     "Time, Distance and Speed/images/image 2.jpg",
     "Time, Distance and Speed/images/image 1.jpg",
