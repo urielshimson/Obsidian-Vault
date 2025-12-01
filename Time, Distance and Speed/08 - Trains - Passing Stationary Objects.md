@@ -54,6 +54,9 @@ A train 200 m long takes 10 seconds to pass a standing man. Find the time taken 
 
 (A) 23 seconds (B) 13 seconds (C) 26 seconds (D) 36 seconds (E) 20 seconds
 
+
+Use the Chain Rule to relate Distance and Time proportionally using Speed, and calculate the unknown Time.
+
 ![[image 23.jpg|250]]
 
 ---
@@ -66,6 +69,7 @@ A train crosses a pole and bridge 300 m long in 10 seconds and 25 seconds, respe
 
 - When a train passes a lengthy object in "X+Y" seconds, it first covers the object’s length in "x" seconds, then its own length in the remaining "y" seconds.
 - When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
+
 
 ![[image 24.jpg|250]]
 
@@ -97,30 +101,6 @@ A train passes a signal pole and a bridge of length 648 m in 12 seconds and 24 s
 ![[images/image 25.jpg|400]]
 
 ---
-
-**🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
-
-
-
-Use the Chain Rule to relate Distance and Time proportionally using Speed, and calculate the unknown Time.
-
----
-
-**🎯[[05 - SET-2 (Trains Basics).pdf#page=7|Problem 5:]]**
-
-
-
-- When a train passes a lengthy object in "X+Y" seconds, it first covers the object's length in "x" seconds, then its own length in the remaining "y" seconds.
-- When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
-
----
-
-
----
-
-
----
-
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=10|Problem 8:]]**
 
