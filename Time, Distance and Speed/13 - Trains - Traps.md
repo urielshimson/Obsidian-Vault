@@ -4,7 +4,7 @@ dg-publish: true
 
 ---
 
-**📄 [[Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf#page=13|07 - SET-4 (Trains Advanced), p.13]]**
+**📄 [[Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf#page=14|07 - SET-4 (Trains Advanced), p.14]]**
 
 ---
 
