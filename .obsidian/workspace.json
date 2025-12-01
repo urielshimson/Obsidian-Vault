@@ -4,8 +4,32 @@
     "type": "split",
     "children": [
       {
+        "id": "e0cb7af15883ba5d",
+        "type": "tabs",
+        "dimension": 50.26269702276708,
+        "children": [
+          {
+            "id": "e586eecad38210a4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
+                "page": 1,
+                "left": -33,
+                "top": 118,
+                "zoom": 0.4709377856902276
+              },
+              "icon": "lucide-file-text",
+              "title": "07 - SET-4 (Trains Advanced)"
+            }
+          }
+        ]
+      },
+      {
         "id": "76e6c8ac6717c744",
         "type": "tabs",
+        "dimension": 49.73730297723292,
         "children": [
           {
             "id": "a449a49ba40b6785",
@@ -13,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time, Distance and Speed/index.md",
+                "file": "Time, Distance and Speed/10 - Trains - Two Stations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "10 - Trains - Two Stations"
             }
           }
         ]
@@ -188,11 +212,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a449a49ba40b6785",
+  "active": "e586eecad38210a4",
   "lastOpenFiles": [
-    "index.md",
-    "Time, Distance and Speed/index.md",
+    "Time, Distance and Speed/10 - Trains - Two Stations.md",
     "Time, Distance and Speed/09 - Trains - Passing Moving Objects.md",
+    "Time, Distance and Speed/11 - Trains - Formula Type.md",
+    "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
+    "Time, Distance and Speed/index.md",
+    "index.md",
     "08 - Train - Passing Stationary Objects.md",
     "Important Calculation Methods/Notes.md",
     "Time, Distance and Speed/13 - Trains - Traps.md",
@@ -201,10 +228,7 @@
     "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
-    "Time, Distance and Speed/10 - Trains - Two Stations.md",
     "Time, Distance and Speed/02 - Average Speed.md",
-    "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
-    "Time, Distance and Speed/11 - Trains - Formula Type.md",
     "Time, Distance and Speed/07 - Race & Circular Motion.md",
     "Time, Distance and Speed/06 - Race Type.md",
     "Time, Distance and Speed/05 - Stoppage.md",
