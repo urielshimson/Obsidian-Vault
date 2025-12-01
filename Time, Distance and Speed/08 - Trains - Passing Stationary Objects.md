@@ -22,18 +22,20 @@ dg-publish: true
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=3|Problem 1:]]**
 
+A train, 150m long passes a pole in 15 seconds. What is the speed of the train in km/hr?
 
+(A) 20 km/hr (B) 24 km/hr (C) 10 km/hr (D) 36 km/hr (E) 38 km/hr
 
 - To convert from a larger unit to a smaller unit, use a fraction with a smaller numerator (e.g., km/h to m/s → multiply by 5/18).
 - To convert from a smaller unit to a larger unit, use a fraction with a larger numerator (e.g., m/s to km/h → multiply by 18/5).
 
 ---
 
-
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=4|Problem 2:]]**
 
 ---
 
-
+**🎯[[05 - SET-2 (Trains Basics).pdf#page=5|Problem 3:]]**
 
 ---
 
