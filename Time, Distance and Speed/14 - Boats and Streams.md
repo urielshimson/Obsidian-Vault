@@ -268,8 +268,8 @@ Upstream Speed.
 - If the number after the decimal point is 5 or more → Round up to the next whole number.
 - If the number after the decimal point is less than 5 → Round down to the same whole number.
 
-![[image 15.jpg|300]]
+![[image 15.jpg|400]]
 
-![[image 16.jpg|300]]
+![[image 16.jpg|400]]
 
-![[image 17.jpg|300]]
+![[image 17.jpg|400]]
