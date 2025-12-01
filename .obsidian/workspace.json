@@ -31,9 +31,9 @@
               "state": {
                 "file": "Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf",
                 "page": 15,
-                "left": -34,
-                "top": 592,
-                "zoom": 0.4682312466920079
+                "left": -25,
+                "top": 509,
+                "zoom": 0.6261126882548236
               },
               "icon": "lucide-file-text",
               "title": "07 - SET-4 (Trains Advanced)"
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "Time, Distance and Speed/13 - Trains - Traps.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "right": {
     "id": "71288c71c46d1460",
