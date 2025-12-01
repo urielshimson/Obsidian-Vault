@@ -41,14 +41,18 @@ A train crosses an 80m long platform in 30 seconds. If the speed of the train is
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=5|Problem 3:]]**
 
+A 240 m long train crosses a platform twice its length in 40 seconds. What is the speed of the train?
 
+(A) 6 m/sec (B) 28 m/sec (C) 18 m/sec (D) 16 m/sec (E) 20 m/sec
 
 ---
 
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=6|Problem 4:]]**
 
+A train 200 m long takes 10 seconds to pass a standing man. Find the time taken by the train in crossing a railway platform of 260 m in length.
 
+(A) 23 seconds (B) 13 seconds (C) 26 seconds (D) 36 seconds (E) 20 seconds
 
 ![[image 23.jpg|250]]
 
@@ -56,7 +60,9 @@ A train crosses an 80m long platform in 30 seconds. If the speed of the train is
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=7|Problem 5:]]**
 
+A train crosses a pole and bridge 300 m long in 10 seconds and 25 seconds, respectively. How long will the train take to cross a 200 m long platform?
 
+(A) 10 seconds (B) 18 seconds (C) 20 seconds (D) 25 seconds (E) 30 seconds
 
 - When a train passes a lengthy object in "X+Y" seconds, it first covers the object’s length in "x" seconds, then its own length in the remaining "y" seconds.
 - When a train passes a non-lengthy object like a tree/pole/person in "x" seconds, it passes it by covering its own length in "x" seconds.
@@ -67,7 +73,9 @@ A train crosses an 80m long platform in 30 seconds. If the speed of the train is
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=8|Problem 6:]]**
 
+What is the ratio between the times taken by a train of length 500 m to cross an electric pole and a bridge of length 400 m?
 
+(A) 2:3 (B) 3:4 (C) 5:9 (D) 5:8 (E) 4:3
 
 - When Speed is constant, Distance and Time are Directly Proportional
   Formula: D = S × T (or) T = D / S
@@ -80,7 +88,9 @@ A train crosses an 80m long platform in 30 seconds. If the speed of the train is
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=9|Problem 7:]]**
 
+A train passes a signal pole and a bridge of length 648 m in 12 seconds and 24 seconds, respectively. What is the speed of the train?
 
+(A) 186.4 km/hr (B) 180 km/hr (C) 179 km/hr (D) 194.4 km/hr (E) 134.8 km/hr
 
 - If a train travels at a constant Speed and takes the same amount of Time to pass certain Distances, it means those Distances are of equal length.
 
