@@ -11,7 +11,7 @@ dg-publish: true
 - [[05 - Stoppage]]
 - [[06 - Race Type]]
 - [[07 - Race & Circular Motion]]
-- [[08 - Train - Passing Stationary Objects]]
+- [[08 - Trains - Passing Stationary Objects]]
 - [[09 - Trains - Passing Moving Objects]]
 - [[10 - Trains - Two Stations]]
 - [[11 - Trains - Formula Type]]
