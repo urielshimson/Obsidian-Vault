@@ -33,9 +33,15 @@ A train, 150m long passes a pole in 15 seconds. What is the speed of the train i
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=4|Problem 2:]]**
 
+A train crosses an 80m long platform in 30 seconds. If the speed of the train is 4 m/sec, what is the length of the train?
+
+(A) 40m (B) 55m (C) 80m (D) 60m (E) 50m
+
 ---
 
 **🎯[[05 - SET-2 (Trains Basics).pdf#page=5|Problem 3:]]**
+
+
 
 ---
 
