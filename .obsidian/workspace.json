@@ -47,9 +47,9 @@
               "type": "pdf",
               "state": {
                 "file": "Time, Distance and Speed/pdfs/10 - BOAT-1-SOLVING.pdf",
-                "page": 14,
+                "page": 3,
                 "left": -25,
-                "top": 201,
+                "top": 317,
                 "zoom": 0.6261126882548236
               },
               "icon": "lucide-file-text",
@@ -245,10 +245,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "f522ad902b167734",
+  "active": "a449a49ba40b6785",
   "lastOpenFiles": [
-    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/pdfs/10 - BOAT-1-SOLVING.pdf",
+    "Time, Distance and Speed/14 - Boats and Streams.md",
+    "Time, Distance and Speed/Pasted image 20251202164543.png",
     "Time, Distance and Speed/13 - Trains - Traps.md",
     "Time, Distance and Speed/12 - Trains - Tough and Tricky.md",
     "Time, Distance and Speed/11 - Trains - Formula Type.md",
@@ -290,7 +291,6 @@
     "Time, Distance and Speed/images/image 1.jpg",
     "Time, Distance and Speed/images/image 55.jpg",
     "Time, Distance and Speed/images/image 54.jpg",
-    "Time, Distance and Speed/images/image 53.jpg",
-    "Excalidraw/16.jpg"
+    "Time, Distance and Speed/images/image 53.jpg"
   ]
 }

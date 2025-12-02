@@ -247,18 +247,35 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 **🧩 Test Yourself**
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=2|Problem 2:]]**
+
+
+
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 - From the question, "upstream" refers to the upstream speed.
 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=3|Problem 3:]]**
+
+
+
 - The circled parts denote the Upstream Speed and Downstream Speed.
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 
 ---
 
+A boat can travel 78 km upstream and back in a total of 32 hours. It can travel 115 km upstream and 52 km downstream in a total of 19 hours. How much distance will the boat cover in 12 hours in still water?
+
+(A) 92 km (B) 96 km (C) 104 km (D) 100 km
+
+---
+
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=5|Problem 5:]]**
+
+A boatman rows to a place 30 km distance and back in 14 hours. He finds that he can row 10 km with the stream at the same time as 4 km against the stream. Find the speed (in km/h) of the stream.
+
+(A) 9/2 (B) 9/4 (C) 2/9 (D) 4/9
+
 💡 **Sample Value Substitution Method**: 
 - If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
 - Start with the equation that has the smaller total time value, or one that can be split equally.
@@ -270,11 +287,19 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=6|Problem 6:]]**
 
+A motorboat takes 18 hours to go downstream, and it takes 36 hours to return the same distance. Find the ratio of the speed of the boat in still water to the speed of the stream.
+
+(A) 3:1 (B) 2:3 (C) 2:1 (D) 3:2
+
 ![[image 14.jpg|200]]
 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=7|Problem 7:]]**
+
+A motorboat travelling at a certain speed can cover a distance of 24 km upstream and 40 km downstream in 17 hours. At the same speed it can travel 32 km downstream and 12 km upstream in 10 hours. What is the speed of the current?
+
+(A) 5 km/h (B) 4 km/h (C) 2 km/h (D) 3 km/h
 
 💡 **Sample Value Substitution Method**: 
 - If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
@@ -285,11 +310,21 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=8|Problem 8:]]**
+
+A man can row a distance of 6 km in 1 hour in still water. He can row the same distance in 45 minutes with the current. Find the total time taken by him to row a distance of 16 km with the current and to return to the starting point.
+
+(A) 4 hrs 40 mins (B) 6 hrs (C) 4 hrs (D) 6 hrs 40 mins
+
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=9|Problem 9:]]**
+
+A motorboat, whose speed in 15 km/h in still water, goes 50 km downstream and comes back in a total of 7 hours 30 minutes. The speed of the stream (in km/h) is:
+
+(A) 9 km/h (B) 5 km/h (C) 11 km/h (D) 7 km/h
+
 💡 **Sample Value Substitution Method**: 
 - If the options contain only whole numbers without fractions/decimals, and if the Time value on the LHS can be split properly or split equally, then solve the equations using the Sample Value Substitution Method.
 - Start with the equation that has the smaller total time value, or one that can be split equally.
@@ -300,16 +335,31 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=10|Problem 10:]]**
+
+A boat covers a distance of 55 km downstream in 5 hours, while it takes 11 hours to cover the same distance upstream. What is the speed of the boat?
+
+(A) 8 km/h (B) 9 km/h (C) 11 km/h (D) 7 km/h
+
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=11|Problem 11:]]**
+
+A boatman rows 2 km in 10 mins, along the stream and 12 km in 2 hours against the stream. What is the speed of the stream?
+
+(A) 3 km/h (B) 2.5 km/h (C) 4 km/h (D) 3.5 km/h
+
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 
 ---
 
 🎯[[10 - BOAT-1-SOLVING.pdf#page=12|Problem 12:]]
+
+A boat covers 24 km upstream and 36 km downstream in 10 hours, and 36 km upstream and 24 km downstream in 12 hours. The speed of the current is:
+
+(A) 26/9 km/h (B) 33/13 km/h (C) 25/8 km/h (D) 24/7 km/h
+
 💡 **Reciprocal Substitution Method**:
 - If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
 - Let u = 1/b-s and d = 1/b+s
@@ -321,11 +371,21 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 ---
 
 🎯[[10 - BOAT-1-SOLVING.pdf#page=13|Problem 13:]]
+
+A boat can travel 16.9 km downstream in 52 min. If the speed of the current is 3 km/h, then how much time (in hours) will the boat take to travel 84 km upstream?
+
+(A) 6 (B) 13.5 (C) 6.22 (D) 7.5
+
 - In TDS questions, from the three quantities Time, Distance, and Speed, if any two are given in the question and one is missing, find the missing quantity first using the other two known quantities.
 
 ---
 
 🎯[[10 - BOAT-1-SOLVING.pdf#page=14|Problem 14:]]
+
+A man rows 48 km and back in 48 hours. He can row 4 km with the stream in the same time as 3 km against the stream. The speed of the stream (in km/h) is:
+
+(A) 5/21 (B) 7/21 (C) 7/24 (D) 3/29
+
 💡 **Reciprocal Substitution Method**:
 - If the options contain fractions/decimals, or if the Time value on the LHS cannot be split properly or split equally, then solve the equations using the Reciprocal Substitution Method.
 - Let u = 1/b-s and d = 1/b+s
