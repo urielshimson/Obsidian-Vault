@@ -47,9 +47,9 @@
               "type": "pdf",
               "state": {
                 "file": "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
-                "page": 6,
+                "page": 8,
                 "left": -34,
-                "top": 591,
+                "top": 590,
                 "zoom": 0.4682312466920079
               },
               "icon": "lucide-file-text",
@@ -244,8 +244,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "bd664aaa40463447",
+  "active": "a449a49ba40b6785",
   "lastOpenFiles": [
+    "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
     "Time, Distance and Speed/09 - Trains - Passing Moving Objects.md",
     "Time, Distance and Speed/pdfs/06 - SET-3 (Trains Relative Speed).pdf",
     "Time, Distance and Speed/10 - Trains - Two Stations.md",
@@ -263,7 +264,6 @@
     "Time, Distance and Speed/07 - Race & Circular Motion.md",
     "Time, Distance and Speed/pdfs/03 - SET-1 Race & Circular Motion.pdf",
     "03 - SET-1 Race & Circular Motion OCR.pdf.md",
-    "Time, Distance and Speed/08 - Trains - Passing Stationary Objects.md",
     "Time, Distance and Speed/pdfs/05 - SET-2 (Trains Basics).pdf",
     "Time, Distance and Speed/index.md",
     "index.md",
