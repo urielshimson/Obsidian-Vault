@@ -10,9 +10,12 @@ dg-publish: true
 
 **🎯 [[Time, Distance and Speed/pdfs/07 - SET-4 (Trains Advanced).pdf#page=14|Question 11:]]**
 
-Two trains of the same length take 4 seconds and 6 seconds to cross a pole. If both the trains are running in the same direction, then how long will they take to cross each other?
+**Two trains of the same length take 4 seconds and 6 seconds to cross a pole. If both the trains are running in the same direction, then how long will they take to cross each other?**
 
-(A) 24 seconds (B) 36 seconds (C) 40 seconds (D) 42 seconds
+==(A) 24 seconds==
+(B) 36 seconds
+(C) 40 seconds
+(D) 42 seconds
 
 - If the question has the keyword "Same/Equal/Identical", start the sum by equating the corresponding quantities.
 - When 2 trains pass a pole → No Relative Speed.
