@@ -337,6 +337,11 @@ A man can row 7.5 km/h in still water. If the speed of the current is 2.5 km/h, 
 ---
 
 **🎯[[10 - BOAT-1-SOLVING.pdf#page=16|Problem 16:]]**
+
+The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along with the current in 5 hours 10 minutes. What will be the time taken by the boat to come back?
+
+(A) 5 hours 15 minutes 58 seconds (B) 6 hours 45 minutes 10 seconds (C) 8 hours 13 minutes 48 seconds
+
 - The Speed Ratio can be inversed to the Time Ratio only when the Distance is constant.
 - Upstream Distance is equal to Downstream Distance in this problem, so the Speed Ratio can be inversed to the Time Ratio for this problem.
 
