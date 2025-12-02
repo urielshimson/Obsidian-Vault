@@ -25,7 +25,9 @@ dg-publish: true
 
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=2|Problem 1:]]**
 
+A train takes 11 seconds and 10 seconds to cross 2 men who are walking in the same direction of the train at the speed of 6 km/hr and 5 km/hr respectively. Find the speed of the train.
 
+(A) 16 km/hr (B) 200 km/hr (C) 18 km/hr (D) 17 km/hr
 
 - In Relative Speed type, when two cases are given in the question, start the sum by equating the quantity (usually the passing distance 'D') that remains constant in both cases.
 - In Relative Speed type, when a train and two men pass each other, start the sum by equating the quantity (train length) that remains constant in both cases (the train passing each man separately).
@@ -34,7 +36,9 @@ dg-publish: true
 
 **🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=3|Problem 2:]]**
 
+A train overtakes two boys who are walking in the opposite direction in which the train is going at the rate of 6 km/h and 12 km/h and passes them completely in 36 seconds and 30 seconds respectively. What is the length of the train?
 
+(A) 120 m (B) 300 m (C) 140 m
 
 When substituting values separately into the L.H.S/R.H.S of an equation, the equation's units must be considered while solving, because the units do not cancel out with those units on the other side of the equation.
 
@@ -42,7 +46,9 @@ When substituting values separately into the L.H.S/R.H.S of an equation, the equ
 
 🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=4|Problem 3:]]
 
+Two trains are moving in the same direction at the speeds of 42 km/hr and 84 km/hr and their lengths are 320 metres and 380 metres respectively. What is the time taken (in seconds) by faster train to cross the slower train?
 
+(A) 60 (B) 80 (C) 90 (D) 120
 
 - When a train passes a non-lengthy object such as a man, tree, or pole, the passing distance D = the length of the train.
 - When a train passes a lengthy object such as a bridge, platform, or another train, the passing distance D = the length of the lengthy object + the length of the train.
@@ -50,15 +56,38 @@ When substituting values separately into the L.H.S/R.H.S of an equation, the equ
 
 ---
 
+🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=5|Problem 4:]]
+
+Two trains are moving in the same direction at the speeds of 35 km/hr and 71 km/hr. The time taken by faster train to cross a man sitting in the slower train is 48 seconds. What will be the length (in metres) of the faster train?
+
+(A) 540 (B) 420 (C) 480 (D) 660
 
 ---
+
+🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=6|Problem 5:]]
+
+---
+
+🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=7|Problem 6:]]
 
 **Page 51:**
 When cancelling m/s units on both sides of an equation, the result will be in km/hr.
 
+---
+
+🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=8|Problem 7:]]
+
 **Page 52:**
 - When ratios are given in the question and if you need to find specific quantities, assigning a variable (e.g., 'x') to one or both parts of the ratio can help to solve the problem.
 - When simplifying a number in a fraction by canceling common factors, if the next part of the number becomes too small to divide by the factor, place a zero in the quotient before continuing the simplification.
+
+---
+
+🎯[[06 - SET-3 (Trains Relative Speed).pdf#page=9|Problem 8:]]
+
+Renu was sitting inside train A, which was travelling at 50 km/h. Another train, B, whose length was three times the length of A crossed her in the opposite direction in 15 seconds. If the speed of train B was 58 km/h, then the length of train A (in metre) is :
+
+(A) 210 (B) 180 (C) 160 (D) 150
 
 ---
 
