@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "c3ee530bf4e45752",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c89c64d8543bcba",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
+                "page": 5,
+                "left": -25,
+                "top": 594,
+                "zoom": 0.6261126882548236
+              },
+              "icon": "lucide-file-text",
+              "title": "09 - Set-5 (Boats & Streams)"
+            }
+          }
+        ]
+      },
+      {
         "id": "76e6c8ac6717c744",
         "type": "tabs",
         "children": [
@@ -78,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "right": {
     "id": "71288c71c46d1460",
@@ -190,6 +213,8 @@
   },
   "active": "a449a49ba40b6785",
   "lastOpenFiles": [
+    "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
+    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/02 - Average Speed.md",
     "Time, Distance and Speed/03 - Late or Early.md",
     "Time, Distance and Speed/04 - Meeting or Chasing.md",
@@ -211,8 +236,6 @@
     "index.md",
     "08 - Train - Passing Stationary Objects.md",
     "Important Calculation Methods/Notes.md",
-    "Time, Distance and Speed/pdfs/09 - Set-5 (Boats & Streams).pdf",
-    "Time, Distance and Speed/14 - Boats and Streams.md",
     "Time, Distance and Speed/01 - Basics.md",
     "Time, Distance and Speed/00 - Summary.md",
     "Time, Distance and Speed/pdfs/02 - SET-1 (TDS problems) Part 2.pdf",

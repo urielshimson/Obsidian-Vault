@@ -59,7 +59,7 @@ dg-publish: true
 
 **🎯 [[09 - Set-5 (Boats & Streams).pdf#page=5|Problem 3:]]**
 
-A person can row 221222 \frac{1}{2}2221​ km an hour in still water and he finds that it takes him twice as long to row up as to row down the stream. The speed of the stream is:
+A person can row 22(1/2) km an hour in still water and he finds that it takes him twice as long to row up as to row down the stream. The speed of the stream is:
 
 (A) 7127 \frac{1}{2}721​ km/hr (B) 131213 \frac{1}{2}1321​ km/hr (C) 12 km/hr (D) 3 km/hr
 
